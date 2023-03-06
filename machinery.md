@@ -1,4 +1,4 @@
-# Machinery Used for the 2023 Assessments
+# Software and Hardware Used for the 2023 Assessments
 
 ## Tools to Examine Data
 
