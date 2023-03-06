@@ -2,6 +2,8 @@
 
 Notes in this repository:
 
+* [Diagnostics](diagnostics.md) - table of results and model diagnostics
+
 * [Exploration](exploration.md) - exploratory model runs
 
 * [Machinery](machinery.md) - software and hardware

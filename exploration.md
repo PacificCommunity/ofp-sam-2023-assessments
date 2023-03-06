@@ -34,18 +34,3 @@ Mark Maunder.
 Fisheries can be combined or separated and selectivity parameters can be shared.
 
 Regional structures to consider are 1, 4, 8, and 9 regions.
-
-## Table of runs
-
-Number of parameters, negative log-likelihood, convergence diagnostics.
-
-## Diagnostics
-
-* Likelihood components
-* Positive definite Hessian
-* Maximum gradients
-* Parameters on bounds
-* Goodness of fit
-* Residual patterns
-* Jittering
-* Retrospective analysis
