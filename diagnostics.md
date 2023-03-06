@@ -14,8 +14,8 @@ model runs.
 * Likelihood components
 * Max gradient
 * Parameters on bounds
-* Goodness of fit
 * Residual patterns
+* Parameter correlations
 
 *Follow-up analyses*
 
