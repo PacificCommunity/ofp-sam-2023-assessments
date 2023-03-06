@@ -1,5 +1,7 @@
 # Bigeye and Yellowfin assessments
 
+* [Machinery](machinery.md) - software and hardware
+
 Links to other repositories:
 
 * [Directory structure](https://github.com/PacificCommunity/ofp-sam-assessment-repos).
