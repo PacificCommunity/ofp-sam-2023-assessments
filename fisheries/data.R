@@ -4,7 +4,7 @@
 ## After:  fdesc.csv, frq_yft.csv (data)
 
 library(TAF)
-library(FLR4MFCL)
+suppressMessages(library(FLR4MFCL))
 
 mkdir("data")
 
