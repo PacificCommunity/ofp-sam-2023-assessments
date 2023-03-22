@@ -1,7 +1,7 @@
 ## Preprocess data, write TAF data tables
 
 ## Before: fdesc.txt, yft.frq (boot/data)
-## After:  fdesc.csv, yft_frq.csv (data)
+## After:  fdesc.csv, frq_yft.csv (data)
 
 library(TAF)
 library(FLR4MFCL)
@@ -9,18 +9,18 @@ library(FLR4MFCL)
 mkdir("data")
 
 # Read files
-yft.frq <- read.MFCLFrq("boot/data/yft.frq")
+frq.yft <- read.MFCLFrq("boot/data/yft.frq")
 fdesc <- read.table("boot/data/fdesc.txt", header=TRUE)
 
 # Extract length frequencies
-yft.frq <- freq(yft.frq)
-yft.frq <- aggregate(freq~length+fishery, yft.frq, sum)
-names(yft.frq)[names(yft.frq)=="fishery"] <- "fishery.id"
+frq.yft <- freq(frq.yft)
+frq.yft <- aggregate(freq~length+fishery, frq.yft, sum)
+names(frq.yft)[names(frq.yft)=="fishery"] <- "fishery.id"
 
 # Rename fishery columns
 names(fdesc)[names(fdesc)=="num"] <- "fishery.id"
 names(fdesc)[names(fdesc)=="code"] <- "fishery"
 
 # Write TAF tables
-write.taf(yft.frq, dir="data")
+write.taf(frq.yft, dir="data")
 write.taf(fdesc, dir="data")
