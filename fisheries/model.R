@@ -13,7 +13,8 @@ frq.yft <- read.taf("data/frq_yft.csv")
 
 # Merge length frequencies and fishery descriptions
 frq.yft <- merge(frq.yft, fdesc)
-frq.yft <- frq.yft[c("fishery.id", "fishery", "region", "length", "freq")]
+frq.yft <- frq.yft[c("region", "fishery.id", "fishery", "length", "freq")]
+frq.yft <- frq.yft[order(frq.yft$region, frq.yft$fishery, frq.yft$length),]
 
 # Write table
 write.taf(frq.yft, dir="model")
