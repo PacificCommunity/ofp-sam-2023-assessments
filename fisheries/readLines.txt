@@ -1,2 +1,0 @@
-# Observed catch by fishery (down) and time (across)	6534
-# Predicted catch by fishery (down) and time (across)	6576
