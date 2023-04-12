@@ -1,5 +1,12 @@
 # Software and Hardware Used for the 2023 Assessments
 
+## MULTIFAN-CL
+
+Version | Date       |    Size | Location                                       | Purpose
+------- | ---------- | ------- | ---------------------------------------------- | ----------------
+2.0.7.0 | 2020-02-11 | 9474872 | //penguin/assessments/mfcl/2020_01_17_devvsn12 | 2020 assessments
+2.1.0.0 | 2023-03-21 | 9715080 | //penguin/assessments/mfcl/2023-03-21_vsn2100  | 2023 assessments
+
 ## Tools to Examine Data
 
 ...
