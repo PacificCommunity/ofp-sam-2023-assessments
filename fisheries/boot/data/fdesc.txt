@@ -30,4 +30,4 @@ num	gear_long	method	code	gear	flag	region
 29	LL	L	LL.ALL.9	LL	ALL	9
 30	PS.ASSOC	S	PS.ASSOC.7	PS-ASS	ALL	7
 31	PS.UNASSOC	S	PS.UNASSOC.7	PS-UNA	ALL	7
-32	Dom	Z	Dom.VN.7	Dom	VN	7
+32	Dom	Z	Dom.VN.7	Dom	VN	7	
