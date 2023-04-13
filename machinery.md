@@ -50,10 +50,19 @@ Clearly, one should not run models on the C or D drives.
 
 ## Improvements in the toolchain
 
-Tool     | Purpose   | Feature             | Improvement
--------- | --------- | ------------------- | ---------------------------------------------
-MFCL     | Fit model | neglogL             | Consistent reporting of neglogL, also in .par
-FLR4MFCL | R-to-MFCL | read.MFCLLikelihood | Reads in Age likelihood (otoliths)
-Shiny    |
-condor   |
-makeit   |
+Tool     | Purpose       | Feature                 | Improvement
+-------- | ------------- | ----------------------- | --------------------------------------------------------------
+MFCL     | Fit model     | Objective function      | Consistent +/- sign of objfun, also in .par
+FLR4MFCL | R-to-MFCL     | MFCLLikelihood          | Reads in negative objfun, reads in Age likelihood
+"        |               | Parameter correlation   | read.MFCLCor, mat2MFCLCor, corFilter, corLabel
+"        |               | Compare flags           | diffFlags, diffFlagsStepwise, flagMeaning
+"        |               | Shiny support           | finalPar, finalRep
+Shiny    | Explore runs  | Code reorganization     | Easier to adapt to new stock, common trunk
+"        |               | Likelihood table        | Includes CPUE and Age
+"        |               | Official app collection | In one place, ofp-sam-shinyMFCL
+condor   | R-to-Condor   | Package on CRAN         | User scripts become much shorter
+"        |               | Submit/list/download    | Efficient and reliable Condor runs: stepwise and grid
+makeit   | Automation    | Package on CRAN         | One R script runs other R scripts when needed
+"        |               | Run R scripts if needed | Efficient and reliable R jobs: all plots and tables
+Dir tree | Project mgmt  | Standard dir structure  | Allows us to develop and use shared tools across stocks
+"        |               | "                       | Guarantee that next assessor can find and reuse all components
