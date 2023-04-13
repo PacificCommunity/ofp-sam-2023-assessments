@@ -47,3 +47,13 @@ WSL_Jemery_D_drive |     133
 WSL_Arni_C_drive   |     223
 
 Clearly, one should not run models on the C or D drives.
+
+## Improvements in the toolchain
+
+Tool     | Purpose   | Feature             | Improvement
+-------- | --------- | ------------------- | ---------------------------------------------
+MFCL     | Fit model | neglogL             | Consistent reporting of neglogL, also in .par
+FLR4MFCL | R-to-MFCL | read.MFCLLikelihood | Reads in Age likelihood (otoliths)
+Shiny    |
+condor   |
+makeit   |
