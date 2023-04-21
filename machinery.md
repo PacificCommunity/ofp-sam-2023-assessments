@@ -56,7 +56,7 @@ MFCL     | Fit model     | Objective function      | Consistent +/- sign of objf
 FLR4MFCL | R-to-MFCL     | MFCLLikelihood          | Reads in negative objfun, reads in Age likelihood
 "        |               | Parameter correlation   | read.MFCLCor, mat2MFCLCor, corFilter, corLabel
 "        |               | Compare flags           | diffFlags, diffFlagsStepwise, flagMeaning
-"        |               | Shiny support           | finalPar, finalRep
+"        |               | Find model results      | finalPar, finalRep
 Shiny    | Explore runs  | Code reorganization     | Easier to adapt to new stock, common trunk
 "        |               | Likelihood table        | Includes CPUE and Age
 "        |               | Official app collection | In one place, ofp-sam-shinyMFCL
