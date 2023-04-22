@@ -49,20 +49,20 @@ Clearly, one should not run models on the C or D drives.
 
 ## Improvements in the toolchain
 
-Tool                                                             | Purpose       | Feature                 | Improvement
----------------------------------------------------------------- | ------------- | ----------------------- | --------------------------------------------------------------
-[MFCL](https://mfcl.spc.int)                                     | Fit model     | Objective function      | Consistent +/- sign of objfun, also in .par
-[FLR4MFCL](https://github.com/PacificCommunity/ofp-sam-fl4rmfcl) | R-to-MFCL     | MFCLLikelihood          | Reads in negative objfun, reads in Age likelihood
-"                                                                |               | Parameter correlation   | read.MFCLCor, mat2MFCLCor, corFilter, corLabel
-"                                                                |               | Compare flags           | diffFlags, diffFlagsStepwise, flagMeaning
-"                                                                |               | Find model results      | finalPar, finalRep
-[Shiny](https://github.com/PacificCommunity/ofp-sam-shinyMFCL)   | Explore runs  | Code reorganization     | Easier to adapt to new stock, common trunk
-"                                                                |               | Likelihood table        | Includes CPUE and Age
-"                                                                |               | Official app collection | In one place, ofp-sam-shinyMFCL
-[condor](https://cran.r-project.org/package=condor)              | R-to-Condor   | Package on CRAN         | User scripts become much shorter
-"                                                                |               | Submit/list/download    | Efficient and reliable Condor runs: stepwise and grid
-[makeit](https://cran.r-project.org/package=makeit)              | Automation    | Package on CRAN         | One R script runs other R scripts when needed
-"                                                                |               | Run R scripts if needed | Efficient and reliable R jobs: all plots and tables
-[Proper](https://github.com/PacificCommunity/ofp-sam-proper)     | Project mgmt  | Standard dir structure  | Allows us to develop and use shared tools across stocks
-"                                                                |               | "                       | Guarantee that next assessor can find and reuse all components
-"                                                                |               | R script checks         | Strengthens reproducibility of analyses
+Tool                                                                | Purpose       | Feature                 | Improvement
+------------------------------------------------------------------- | ------------- | ----------------------- | --------------------------------------------------------------
+[MFCL](https://mfcl.spc.int)                                        | Fit model     | Objective function      | Consistent +/- sign of objfun, also in .par
+[FLR4MFCL](https://github.com/PacificCommunity/ofp-sam-flr4mfcl)    | R-to-MFCL     | MFCLLikelihood          | Reads in negative objfun, reads in Age likelihood
+"                                                                   |               | Parameter correlation   | read.MFCLCor, mat2MFCLCor, corFilter, corLabel
+"                                                                   |               | Compare flags           | diffFlags, diffFlagsStepwise, flagMeaning
+"                                                                   |               | Find model results      | finalPar, finalRep
+[Shiny](https://github.com/PacificCommunity/ofp-sam-shinyMFCL)      | Explore runs  | Code reorganization     | Easier to adapt to new stock, common trunk
+"                                                                   |               | Likelihood table        | Includes CPUE and Age
+"                                                                   |               | Official app collection | In one place, ofp-sam-shinyMFCL
+[condor](https://cran.r-project.org/package=condor)                 | R-to-Condor   | Package on CRAN         | User scripts become much shorter
+"                                                                   |               | Submit/list/download    | Efficient and reliable Condor runs: stepwise and grid
+[makeit](https://cran.r-project.org/package=makeit)                 | Automation    | Package on CRAN         | One R script runs other R scripts when needed
+"                                                                   |               | Run R scripts if needed | Efficient and reliable R jobs: all plots and tables
+[Proper](https://github.com/PacificCommunity/ofp-sam-proper#readme) | Project mgmt  | Standard dir structure  | Allows us to develop and use shared tools across stocks
+"                                                                   |               | "                       | Guarantee that next assessor can find and reuse all components
+"                                                                   |               | R script checks         | Strengthens reproducibility of analyses
