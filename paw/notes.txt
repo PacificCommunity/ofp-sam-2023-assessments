@@ -1,0 +1,44 @@
+4 regions
+Empty recruitment regions
+46% of the biomass in the North and South
+
+--------------------------------------------------------------------------------
+
+Catch conditioning
+Hessian
+
+Growth
+Estimated internally
+Richards curve
+
+Various model changes
+Don't estimate reporting rate for groups with 0 recoveries
+Initial F starts at 0, instead of average of first 5 years
+
+Regional recruitment penalty
+Forces the model to have somewhat similar rec pattern between regions
+
+--------------------------------------------------------------------------------
+
+(Not happening: Length-based selectivity)
+
+--------------------------------------------------------------------------------
+
+Growth
+New CPUE approach
+Length Comp sample sizes
+CPUE CV
+Lorenzen M
+Alternative movement
+Alternative recruitment
+New fishery groupings
+Dirichlet multinomial
+
+--------------------------------------------------------------------------------
+
+Other ideas:
+Single movement rate across all quarters
+Test sensitivities to movement priors
+
+--------------------------------------------------------------------------------
+

@@ -1,19 +1,15 @@
 PAW 2023 presentation of 2020 assessment
 
  2  Model description
- 3  Data and biological inputs (M, maturity)
- 4  Stepwise: Depletion and Biomass
- 6  Likelihood profiles
+19  CPUE heatmap by decade
+ 9  Model fit to length comps
  8  Recruitment by region
- 9  Length comp fits, the bad ones
+ 6  Likelihood profiles
+ 4  Retro: empirical and analytical
 10  Grid design
 11  Stock status: Depletion and Kobe
-16  Retro
-19  CPUE heatmap by decade
-22  Fit to otolith data
-
-98  Recruitment by region
 99  Regional scaling
+
 
 --------------------------------------------------------------------------------
 
