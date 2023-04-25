@@ -1,0 +1,9 @@
+1. Equatorial model
+Rob Campbell, Nicholas
+This could be implemented in MFCL using 3 regions: IDPH, Archipelago, 3&4
+The short time window between full data update and SC is an issue
+
+2. Model without tags
+Simon Hoyle, John Hampton
+More than an interesting sensitivity run, could be used in the grid
+Especially viable when using Inna's SEAPODYM movement coefficients
