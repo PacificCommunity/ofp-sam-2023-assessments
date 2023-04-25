@@ -1,22 +1,16 @@
 SCIENTIFIC COMMITTEE
 NINETEENTH REGULAR SESSION
 Koror, Palau
-16 – 24 August 2023
+16-24 August 2023
 Independent Review of Recent WCPO Yellowfin Tuna Assessment
 WCPFC-SC19-2023/SA-WP-01
-André E. Punt1
-, Mark N. Maunder2
-, and James N. Ianelli3
-1
-Professor of Aquatic and Fishery Sciences at the University of Washington
-2
-Head of the Stock Assessment Program at the Inter-American Tropical Tuna Commission
-3
-Affiliate professor at the University of Washington and a senior scientist with the Resource
-Ecology and Fisheries Management division of the Alaska Fisheries Science Center, NOAA
-2
+Andre E. Punt[1], Mark N. Maunder[2], and James N. Ianelli[3]
+1 Professor of Aquatic and Fishery Sciences at the University of Washington
+2 Head of the Stock Assessment Program at the Inter-American Tropical Tuna Commission
+3 Affiliate professor at the University of Washington and a senior scientist with the
+Resource Ecology and Fisheries Management division of the Alaska Fisheries Science Center, NOAA
 Independent review of recent WCPO yellowfin tuna assessment
-André E. Punt, Mark N. Maunder, and James N. Ianelli
+Andre E. Punt, Mark N. Maunder, and James N. Ianelli
 Executive Summary
 1. The 2020 assessment of yellowfin tuna was a major undertaking and involved the use of many state-of-
 the art techniques. It involved several changes to the 2017 assessment, including the use of more data
@@ -55,7 +49,7 @@ Panel provides suggestions to rectify this, but some of these will involve chang
 contributor to the change in the perception of status (and the improved condition relative to unfished).
 The impact of each change to the tagging data set needs to be better understood than was possible during
 the review meeting. Moreover, it is important to better understand the nature of the tagging data as well
-as how it needs to be modelled (e.g., how to address tag mixing, tag-reporting and tagging mortality) –
+as how it needs to be modelled (e.g., how to address tag mixing, tag-reporting and tagging mortality) -
 this will be a substantial exercise.
 8. There appears to be conflicting signals on absolute abundance based on the data (index, composition,
 tagging and conditional age-at-length) and how they have been used to fit the model.
@@ -67,11 +61,9 @@ qualitative and quantitative information, and apply analytical methods to inform
 regions and fisheries.
 11. The factorial grid approach to summarizing uncertainty remains state-of-the-art but there are several
 ways in which the implementation for the 2020 assessment could be refined for the 2023 and future
-3
 assessments.
 12. The Panel identified several areas where collection of additional data will be beneficial, as well as
 suggestions for methodological improvements and further data analyses.
-4
 Introduction and General Issues
 The Panel (see Appendix A for panel biographies) conducted a review of the 2020 assessment of yellowfin
 tuna (YFT) for the western and central Pacific, including the data inputs, the settings for the diagnostic
@@ -80,7 +72,7 @@ Prior to the meeting Dr Arni Magnusson provided an annotated set of key question
 topics related to each ToR (Appendix C). The Panel was provided with a set of background documents
 (Appendix D) prior to the meeting of the Panel, as well as a Rshiny-based viewer for output.
 The review meeting took place between 7 and 13 September 2022 at SPC, Noumea, New Caledonia, and
-was chaired by Dr André Punt. The analysts (see Appendix E) gave a presentation of the 2020 assessment
+was chaired by Dr Andre Punt. The analysts (see Appendix E) gave a presentation of the 2020 assessment
 and responded to questions from the Panel on the first day of the review. The Panel identified several
 requests for additional model runs and data analyses that the analysts addressed between meeting sessions.
 During the subsequent days, the Panel evaluated the responses to its requests (Appendix F), and reviewed
@@ -98,7 +90,7 @@ previous assessment involved considerable work and many analyses. However, the c
 conducting the bridging analyses often included changes other than those mentioned in the documentation.
 For example, two major (or perceived to be major) changes were expected to have been made between
 models Age10LW (changing the values of the length-weight parameters and the plus-group age) and
-CondAge, which led to more optimistic4
+CondAge, which led to more optimistic [in the sense that relative spawning potential is higher]
 results. However, investigation of the input files revealed that M-
 at-age and reproductive-outputs-at-age were also changed when model Age10LW was modified.
 Consequently, the Panel focused on how modifications to the 2020 diagnostic model would affect the model
@@ -106,15 +98,15 @@ results (generally the time-series of recruitment, spawning potential, dynamic u
 and relative spawning potential). Core conclusions from this exercise are (see Figure 1 for a plot of the
 results of the 2020 diagnostic model and changes to that model based on changing one aspect of its
 specification at a time):
-• The effects of changing the plus-group age and the length-weight regression parameters are largely
+- The effects of changing the plus-group age and the length-weight regression parameters are largely
 inconsequential.
-• The change from the 2017 M-at-age vector to the 2020 M-at-age vector led to more pessimistic
+- The change from the 2017 M-at-age vector to the 2020 M-at-age vector led to more pessimistic
 results.
-• The change from the 2017 reproductive output-at-age vector to the 2020 reproductive output-at-age
+- The change from the 2017 reproductive output-at-age vector to the 2020 reproductive output-at-age
 vector led to more pessimistic results.
-• Including the conditional age-at-length data (along with not estimating the deviations in length-at-
+- Including the conditional age-at-length data (along with not estimating the deviations in length-at-
 age for the first 8 quarters) led to more optimistic results.
-• The change from the 2017 to the 2020 tagging data set led to more optimistic results. While several
+- The change from the 2017 to the 2020 tagging data set led to more optimistic results. While several
 changes, including the addition of new data, were made to the tag-recapture data, it was found that
 using the 2017 tagging data in the 2020 diagnostic model led to a more pessimistic depletion
 outcome, and using the 2020 tagging data, but restricting it to the tag release groups available for
@@ -122,16 +114,13 @@ the 2017 assessment produced a more optimistic depletion outcome. This implies t
 the treatment of the tagging data (mixing period allocation and the change to tagger-related
 mortality) rather than from the addition of new tagging data in 2020 were most consequential.
 However, additional model runs are needed to determine relative impact of these two changes.
-4
-In the sense that relative spawning potential is higher.
-5
 The review process was challenged by limited specifications of incremental steps on what changed between
 the 2017 and 2020 assessments. This appears to be due to constraints on the time available to conduct the
 assessment and to provide adequate details in the document. Many model and data aspects changed, which
 meant several bridging steps were combined to save time (individual model runs apparently took over 30
 hours). The Panel consequently recommends that the analysts be given more time or additional technical
 support to ensure that model exploration is such that it is possible to fully understand the causes of changes
-in model results. A step in a bridging analysis should involve a single change only, with perhaps “minor”
+in model results. A step in a bridging analysis should involve a single change only, with perhaps "minor"
 changes to the MULTIFAN-CL settings that are needed to ensure convergence. Additionally, these changes
 need to be clearly documented. Table 1 provides a simplified example format that may aid in documenting
 changes to model specifications. The Panel recommends a table like this (or something similar) be adopted
@@ -140,7 +129,7 @@ The Panel wishes to thank the SPC for hosting the meeting, the thorough backgrou
 prior to the review meeting, and the participants for the excellent and constructive atmosphere during the
 review meeting. The Panel particularly wishes to thank the analysts for their skill in addressing the many
 requests from the Panel quickly and for their considerable patience. The availability of results and analyses
-during the review meeting substantially enhanced the Panel’s ability to address its ToR. In conclusion, the
+during the review meeting substantially enhanced the Panel's ability to address its ToR. In conclusion, the
 Panel recognizes that the current assessment, while it can be improved, is state of the art. The Panel was
 impressed by the comprehensive analyses that allowed it to explore a variety of model specifications and
 test several assumptions.
@@ -171,17 +160,14 @@ The Panel recommends continuing the current approach with the base M for the Hoy
 set to 0.2 quarter-1
 but including alternative values for base M in the uncertainty grid. The range of base M
 values could be determined using a likelihood profile or the bounds from Hoyle et al. (2023), but for now
-there is no basis to set this value other than to the default of 0.2 quarter-1
-. The M-at-age vector in the 2020
-assessment had an average M of 0.23 quarter-1
-. Attempts to estimate the average M within the model
-(Request X) led to the M-at-age vector having an average M of 0.2 quarter-1
-, with a base M of 0.17 quarter-
-1
-, but the Panel noted that the many model conflicts meant that this estimate was likely not very robust.
+there is no basis to set this value other than to the default of 0.2 quarter-1.
+The M-at-age vector in the 2020 assessment had an average M of 0.23 quarter-1.
+Attempts to estimate the average M within the model
+(Request X) led to the M-at-age vector having an average M of 0.2 quarter-1,
+with a base M of 0.17 quarter-1,
+but the Panel noted that the many model conflicts meant that this estimate was likely not very robust.
 5
-For simplicity ages in this report relate to quarters so an animal of “age 28” is actually seven years old.
-6
+For simplicity ages in this report relate to quarters so an animal of "age 28" is actually seven years old.
 A.2 Maturity
 Reproductive output-at-age was determined for the 2020 assessment by first computing reproductive output
 at length from maturity-at-length, fecundity-at-length, and the sex-ratio-at-length (Fig 8 of Vincent et al.,
@@ -217,7 +203,7 @@ the assessment will be biased. The Panel therefore recommends not basing the gro
 estimate unless internal estimates are clearly implausible or an appropriate sampling approach to obtain
 representative population length-at-age data can be developed and implemented, or a growth curve is
 externally estimated using conditional age-at-length data. Moreover, some otoliths are discarded owing to
-difficulties with reading – care needs to be taken that this does not bias the distribution of ages within length-
+difficulties with reading - care needs to be taken that this does not bias the distribution of ages within length-
 classes. The Panel also outlined an alternative approach to show the residuals of the fits to the conditional
 age-at-length data and explore if there is spatial variation in growth.
 There is evidence from both the otolith data and modes in the length- and weight-composition data that
@@ -234,7 +220,6 @@ The current weighting scheme gives equal weight to all composition data sets wit
 of fish measured) of at least 1,000. Moreover, the weighting scheme does not account for how the samples
 were collected (e.g., large numbers from a few sets/trips or small numbers from many sets/trips).
 Consideration should be given to weighting the composition data using a metric that reflects the likely
-7
 information content of the data (such as sets/trips), but this will require access to more basic data than is
 currently available to the analysts.
 The sample size used in the likelihood for composition data can have a substantial effect on the results of
@@ -273,7 +258,7 @@ have low CPUE and that is why they are not fished or if they are not fished for 
 and therefore have CPUE like neighboring cells. One approach is to use cells that are fished for a majority
 of the modelling period. However, this ignores spatial changes in the distribution due to infrequent
 environmental events. Xu and Lennert-Cody (2022) restricted the spatial domain of the catch and effort data
-to the “core” fishing ground for skipjack, which was defined for the OBJ and NOA fisheries as all 1° x 1°
+to the "core" fishing ground for skipjack, which was defined for the OBJ and NOA fisheries as all 1x1
 squares in the eastern Pacific Ocean with at least 11 and 6 years of CPUE data between 2000-2021,
 respectively.
 Effort creep, to some degree, is likely to have occurred for the fisheries in this assessment, particularly given
@@ -288,7 +273,6 @@ factors such as targeting or fishing costs can also impact catchability and may 
 improvements. The Panel therefore recommends that the SPC is supported to conduct further investigation
 of effort creep in the longline and purse seine fisheries. This will require support from Distant Water Fishing
 Nations for catch and effort data provision and information on how operations, vessel features, gear and
-8
 technology uptake has changed over time for their fleets. The Panel understands a proposal will be submitted
 from SC18 to the WCPFC19 for support to study effort creep. This study is based on recommendations from
 the 2022 WCPO skipjack assessment and would focus on pole and line and purse seine fisheries. The Panel
@@ -342,7 +326,6 @@ Additionally, the impact of adding the Japanese tagging data set coincided with 
 approach for assigning tag mixing. Because of this concern (and the fact that the stock status changed
 substantively with this model modification) the analysts separated out the impact of the component parts
 and found that the new method of dealing with the mixing period assignment affected the status the most.
-9
 It is also noted that the application of the new model for estimating tagger effects on release mortality
 occurred very early in the bridging analysis (Update step in Figs. 13 and 14 of Vincent et al. 2020a) and had
 a minor effect on the stock status estimates. However, other changes were also made such as including
@@ -370,37 +353,36 @@ selectivities should still provide better fits to the data. The 2017 diagnostic 
 composition data used in that assessment, although the composition data were assigned greater weight in
 that model. A few fisheries with limited composition data share selectivities with similar fisheries, but the
 misfit was not limited to these fisheries. For some fisheries the aggregated composition data have multiple
-modes, shoulders, and means that change over time. These all indicate that multiple “fisheries” are being
+modes, shoulders, and means that change over time. These all indicate that multiple "fisheries" are being
 combined or that the fishery selectivity is changing over time, that the fish may not be removed at the correct
 size, and that information on abundance from the composition data may be compromised. It is important to
 specify selectivity at least approximately right to remove fish at the correct size, particularly for fisheries
 that lead to a majority of the removals and to represent the correct sizes for indices of abundance. A more
 structured approach is needed to model the composition data and selectivity. The Panel recommends the
 following approach:
-• Define fisheries using a regression tree analysis applied to the composition data (e.g., Lennert-Cody
+- Define fisheries using a regression tree analysis applied to the composition data (e.g., Lennert-Cody
 et al. 2010, 2013; Maunder et al., 2022).
-• Describe the fisheries, including the magnitude of catch, sample size, and whether it is an index.
-• Triage the composition data to remove data that are likely to be unrepresentative and/or unreliable.
+- Describe the fisheries, including the magnitude of catch, sample size, and whether it is an index.
+- Triage the composition data to remove data that are likely to be unrepresentative and/or unreliable.
 This may include excluding data for a whole fishery (and sharing selectivity), entire years, or for
 some lengths (e.g., when small amounts of fish under the minimum legal size are caught).
-• Avoid aggregated compositions that show multiple modes, shoulders, or other unusual patterns (i.e.,
+- Avoid aggregated compositions that show multiple modes, shoulders, or other unusual patterns (i.e.,
 not logistic or double normal) by separating them into more fisheries or allowing for time-varying
 selectivity.
-• Assume that selectivity is length-based unless it is known to be age-based (e.g., due to ontogenetic
+- Assume that selectivity is length-based unless it is known to be age-based (e.g., due to ontogenetic
 movement).
-• Ensure that the composition data for fisheries that catch a large proportion of the catch are fit well.
+- Ensure that the composition data for fisheries that catch a large proportion of the catch are fit well.
 This might require the use of flexible time-varying selectivity.
-• Consider downweighting the composition data for fisheries with low catch as these do not need to
+- Consider downweighting the composition data for fisheries with low catch as these do not need to
 be fit well.
-• Fit the composition data for indices well - consideration should be given to allowing selectivity to
+- Fit the composition data for indices well - consideration should be given to allowing selectivity to
 be more flexible and time-varying if necessary.
-10
-• Use the empirical selectivity diagnostic (Maunder et al., 2020)6
+- Use the empirical selectivity diagnostic (Maunder et al., 2020)6
 to check that selectivities are
 appropriate.
-• Use the empirical selectivity method to determine the number of knots and their position when using
+- Use the empirical selectivity method to determine the number of knots and their position when using
 splines.
-• Consider dropping the composition data for fisheries whose selectivities are shared with those for
+- Consider dropping the composition data for fisheries whose selectivities are shared with those for
 another fishery because the data for those fisheries are considered inadequate, particularly if it has
 low catch.
 The index fisheries share catchability and selectivity. This allows the CPUE data to provide information on
@@ -421,11 +403,7 @@ recruitments to determine the impact on the results. When using the penalized li
 normal bias-correction factor is needed to ensure the deterministic equation represents the expected value
 (mean) of recruitment. However, when information is limited for a particular year, the full bias correction
 will bias the estimates. In the extreme case of no information, the bias will be equal to the bias-correction
-factor 2
-/ 2
-R
-
-− ) and the bias-correction factor should not be used. Lack of information can occur in early
+and the bias-correction factor should not be used. Lack of information can occur in early
 years due to the lack of composition data and in recent years because some cohorts are included in the
 composition data for only a few years. Since there is no data in the projections, the bias-correction factor
 should not be used for future recruitments. For years with partial information only a partial bias correction
@@ -450,7 +428,6 @@ investigated in the assessment either by fixing movement to zero for adults or e
 6
 Implemented in the R package empirical.selectivity. remotes::install_github("roliveros-ramos/fks")
 remotes::install_github("roliveros-ramos/empirical.selectivity")
-11
 movement. The assessment report notes that an alternative hypothesis is that spatial differences in growth
 are currently mis-specified, and the models are attempting to compensate for this through the resulting
 movement and abundance patterns. Alternative spatial modelling should be considered as described below.
@@ -463,7 +440,7 @@ parameters of interest over alternatives could perhaps then be used to judge how
 combined and/or weighted.
 B.5 Model complexity
 Model complexity is one of the main reasons the WCPFC and SPC requested an external review. The extent
-of data and model complexity requires more time and attention than can be afforded via WCPFC’s SC
+of data and model complexity requires more time and attention than can be afforded via WCPFC's SC
 process. The model complexity and ability to transparently demonstrate the interplay of how data and model
 configurations impact results is a theme of this review. This occurred partly because the lead author was
 unavailable to respond to queries on some of the assessment details (no longer working for SPC, but did
@@ -477,37 +454,36 @@ the two stocks. However, the structure of the data for, and the behavior of, yel
 bigeye, such that the current model structure for yellowfin likely leads to model instability and unnecessary
 complexity. The Panel recommends the following elements be considered in developing a new (2023)
 yellowfin assessment:
-• Development of a conceptual model for yellowfin in the WCPO. This would involve synthesizing
+- Development of a conceptual model for yellowfin in the WCPO. This would involve synthesizing
 (in the absence of a model) the information on data (e.g., length and CPUE data), what is known
 about movement from tagging, including whether juveniles would be expected to have the same
 movement rates as adults, information from genetics and other indicators of stock structure, and
 information from oceanography on likely distribution. The development of the conceptual model
 might occur during a workshop or other review process involving relevant experts, including the
 stock assessment team.
-• Analysis of the length-composition data based on methods used by Maunder et al. (2022) – or a
-similar approach – to assess which areas/fleets should be combined for the purposes of defining
+- Analysis of the length-composition data based on methods used by Maunder et al. (2022) - or a
+similar approach - to assess which areas/fleets should be combined for the purposes of defining
 regions and fisheries (see Lennert-Cody et al., 2010, 2013).
-• In general, the Panel expects that simpler models will result from this process. In particular, there
+- In general, the Panel expects that simpler models will result from this process. In particular, there
 seems little basis for separating region 9 for this assessment. However, it notes that without
 evaluating a model with the added complexity (e.g., movement among areas), it may be difficult to
 appreciate the extent to which simpler models may violate assumptions.
-• The analysts should use the results of the conceptual model to identify “realism constraints” and
+- The analysts should use the results of the conceptual model to identify "realism constraints" and
 expected model behavior. Consideration should be given to in which regions recruitment should be
-expected (the current result that there is no recruitment to region 8 seems implausible a priori – but
+expected (the current result that there is no recruitment to region 8 seems implausible a priori - but
 earlier assessments had zero recruitment in other regions).
-• To the extent possible, multiple fisheries based on the same gear within the same region should be
+- To the extent possible, multiple fisheries based on the same gear within the same region should be
 avoided, unless needed given difficulties in replicating tag returns.
-• The Hessian matrix should be explored to assess not just the variances of the parameter estimates
+- The Hessian matrix should be explored to assess not just the variances of the parameter estimates
 and the derived variables, but also which parameters may be confounded.
 Absent the above process, the Panel identifies that there are some model options that would provide
 worthwhile information:
-• Consider a model based on data for only the equatorial areas (regions 7, 8, 3 and 4) modelled as a
-12
+- Consider a model based on data for only the equatorial areas (regions 7, 8, 3 and 4) modelled as a
 single area and compare its results with an equivalently parameterized Stock Synthesis model. The
-model would be structured as “fleets-as-areas” with the fleets selected using, for example, the
+model would be structured as "fleets-as-areas" with the fleets selected using, for example, the
 regression tree approach outlined above.
-• Allow juvenile movement rates to differ from those for adults (which may be set to zero).
-• Tagging data are typically complicated by the limited opportunities to tag fish, which restricts the
+- Allow juvenile movement rates to differ from those for adults (which may be set to zero).
+- Tagging data are typically complicated by the limited opportunities to tag fish, which restricts the
 spatial distribution of releases. Consequently, tag mixing is a major problem that needs to be dealt
 with when analyzing the data. A fine-scale movement model would be useful for defining the time
 it takes for tagged animals to fully mix into the population within a region and experience the same
@@ -522,7 +498,7 @@ to integrate the information from the analysis into the stock assessment model n
 developed.
 B.7 Representing uncertainty
 The approach to demonstrating assessment uncertainty is primarily done via combinations of assumptions
-in a “grid” formulation. This approach considers some aspects of structural uncertainty that is otherwise
+in a "grid" formulation. This approach considers some aspects of structural uncertainty that is otherwise
 difficult to demonstrate. The Panel noted that the uncertainty grid for the 2020 assessment involved four
 dimensions (steepness, the growth model, how much the length-composition data are downweighted, and
 the number of quarters used to define the time until tags are fully mixed into the population). The review
@@ -540,12 +516,12 @@ used to summarize the results. Weighting of models within an uncertainty grid ca
 by assigning equal weight to each model in the grid, or by assigning 0/1 weights depending on whether the
 model leads to poor diagnostics or unrealistic outcomes, and or using a broad set of criteria including
 goodness of fit, balance of the factors, etc.
-In other RFMOs structural uncertainty is sometimes evaluated through the use of a “reference grid”. For
+In other RFMOs structural uncertainty is sometimes evaluated through the use of a "reference grid". For
 example, as part of the work to condition the operating model for testing management procedures, the
 CCSBT analysts identified key uncertainties that were then treated as included in the cross of some 432
 different model configurations (CCSBT, 2020). For the management procedure testing, some parameters
 were drawn from prior distributions whereas others were drawn from a quasi-marginal posterior distribution.
-This provides an approach for evaluating uncertainty where the analysts’ assumptions (i.e., the priors) and
+This provides an approach for evaluating uncertainty where the analysts' assumptions (i.e., the priors) and
 other parameters are clearly specified.
 The IATTC recently implemented a risk assessment to evaluate probability statements imbedded in the
 harvest control rule. The risk assessment is based on alternative hypotheses about how to overcome issues
@@ -556,7 +532,6 @@ assessment models prevents strict adherence to statistical rigor. The main featu
 hypotheses about states of nature are represented by alternative stock assessment models with specific model
 structure, data use and parameters; 2) hypotheses are grouped into a hierarchical framework, which
 highlights similarities among models thereby avoiding that any one hypothesis, or overarching hypothesis,
-13
 inadvertently dominates the outcome of the risk analysis, and facilitates model development and weight
 assignment; 3) sub-hypotheses represent models with parameters that cannot be reliably estimated within
 the assessment model and are therefore fixed in the models; 4) multiple metrics are used to evaluate the
@@ -569,7 +544,7 @@ assessment team) and the results averaged.
 A more objective, transparent, and automated approach for model weighting is desired. Several workshops
 have been held, or will be held soon, and are designed to improve the IATTC approach. A virtual workshop
 on Model Diagnostics in Integrated Stock Assessments was held during Jan 31-Feb 3, 2022. A virtual
-workshop on Model Weighting will be held on 28 Nov – 2 Dec, 2022. A further workshop on weighting for
+workshop on Model Weighting will be held on 28 Nov - 2 Dec, 2022. A further workshop on weighting for
 tuna models will be held in New Zealand during 5-10 March 2023. The final approach will be developed
 based on the output of these workshops, but early indications suggest that diagnostics will be used to limit
 the models included in the ensemble and included models will be weighted by the prediction ability of the
@@ -584,41 +559,40 @@ transparent dashboards to easily diagnose model results for different configurat
 that direction.
 Specific to model diagnostics, the Panel commends the analysts for the breadth of methods available to
 view results. The Panel had several suggestions regarding diagnostics:
-• The approach showing the weight- and length-frequency data could be enhanced by showing the
+- The approach showing the weight- and length-frequency data could be enhanced by showing the
 model fit as well as the population length-frequencies.
-• The method for summarizing the fit to the conditional age-at-length data should reflect how the
+- The method for summarizing the fit to the conditional age-at-length data should reflect how the
 data were collected. Specifically, the ages were sampled within length-classes but the plots shown
 suggest that they were conditioned on ages within the population. The approach for presenting such
-information (and model fits) shown in the package “r4ss” should be considered as an option (the
+information (and model fits) shown in the package "r4ss" should be considered as an option (the
 results of Request W is the step in this direction).
-• More diagnostics are needed for the tagging data including:
-• Diagnostics to understand the ability of the model to fit the tagging data (and hence estimate
+- More diagnostics are needed for the tagging data including:
+- Diagnostics to understand the ability of the model to fit the tagging data (and hence estimate
 between-region movements) are needed. Such plots should show time-series of observed and
 model-predicted recaptures (with totals in the legend) by release group (and excluding the
 recaptures during the mixing period) (e.g., Figure 4).
-• Diagnostics related to the tag mixing. For example, plotting the recapture rates with distance
+- Diagnostics related to the tag mixing. For example, plotting the recapture rates with distance
 and time from release.
-• Diagnostics to determine what is informing movement, or at least determine if movement is
+- Diagnostics to determine what is informing movement, or at least determine if movement is
 counter to the tagging data. This might involve running the model with and without movement
 (or cutting the movement in half for all areas) and determining which likelihood functions are
 impacted.
-• Other suggested improvements to the diagnostics are: (a) including a table of the model parameters,
+- Other suggested improvements to the diagnostics are: (a) including a table of the model parameters,
 indicating which are estimated and which are pre-specified, (b) adding the means over time of the
 observed and model-predicted mean lengths and weights to the associated plots, and (c) adding
 plots of model-predicted CPUE vs residuals as well as the time-series plots (e.g., Figures 2 and 3).
-• Add time-trajectories of fishing mortality (or exploitation rate) (e.g., Figure 38 of Vincent et al.
+- Add time-trajectories of fishing mortality (or exploitation rate) (e.g., Figure 38 of Vincent et al.
 [2020]) to the Shiny app.
-• Report the mean weight for each observed and model-predicted composition by fishery (from the
-14
+- Report the mean weight for each observed and model-predicted composition by fishery (from the
 length-frequency data) (e.g., Figure 5) to assess if the right numbers are being removed given the
 model fits the catch weight well.
-• Add reproductive output curves as a function of both age and length to the Shiny app.
-• Clarify how the plot of where biomass by region comes from is calculated. This is potentially a
+- Add reproductive output curves as a function of both age and length to the Shiny app.
+- Clarify how the plot of where biomass by region comes from is calculated. This is potentially a
 very informative diagnostic, but the current version does not behave as expected.
-• Plots of the average spawning potential against the average CPUE (e.g., Figure 6).
+- Plots of the average spawning potential against the average CPUE (e.g., Figure 6).
 D. Recent MULTIFAN-CL model developments
 D.1 Catch-conditioned vs catch-error
-The current assessment is based on a ‘catch-error’ formulation in which ‘effort deviations’ are estimated to
+The current assessment is based on a 'catch-error' formulation in which 'effort deviations' are estimated to
 ensure a good match to observed catch, with a large penalty placed on deviations between the observed and
 model-predicted catches. This leads to a large number of effort deviations being estimated. SPC staff have
 developed an approach based on a Newton-Raphson approach to solving the catch equation, along with a
@@ -627,7 +601,7 @@ parameters substantially (there are some additional parameters related to the ap
 catches). The Panel endorses this approach (referred to as catch-conditioned model), which should simplify
 the models and ideally help to achieve a positive definite Hessian matrix.
 D.2 CPUE likelihood
-A new likelihood has been developed that allows the estimation of a parameter (the ‘overdispersion’
+A new likelihood has been developed that allows the estimation of a parameter (the 'overdispersion'
 parameter) that multiplies the input CV for the CPUE data. The Panel notes that estimating an overdispersion
 parameter can lead to the model ignoring the CPUE data if there are conflicts in the data and should be used
 with care. The Panel recommends a second option be developed where the variance of logCPUE is the sum
@@ -646,7 +620,7 @@ The Dirichlet-Multinomial distribution is an extension of the traditional multin
 permits estimation of an overdispersion parameter (that might reflect the effects of samples that differ from
 simple random sampling, but also model mis-specification). The Panel endorses this approach but
 recommends that it be considered alongside the robust normal distribution and McAllister-Ianelli tuning.
-The Panel notes that all methods for weighting composition data depend on ‘stage-1’ sample sizes and
+The Panel notes that all methods for weighting composition data depend on 'stage-1' sample sizes and
 emphasizes the importance of specifying these correctly.
 E. Future research areas, in priority order
 The Panel identified several research activities and general methodological recommendations which, if
@@ -659,15 +633,14 @@ workshop as well as the workshop on good practices for tuna assessments (that in
 for tuna models) and the associated spatial workshop, which will be held in New Zealand in early
 2023.
 2) Improve diagnostics of all aspects of the model as outlined in section C.
-15
-3) Include an operational definition of “convergence” in the assessment. This may relate to jittering
+3) Include an operational definition of "convergence" in the assessment. This may relate to jittering
 outcomes, gradient values, etc.
-4) Specify what constitutes an “appreciable” change in model results and use it consistently throughout
+4) Specify what constitutes an "appreciable" change in model results and use it consistently throughout
 assessment documents.
 E.1 Model inputs
 1) The composition data should be weighted using a metric that reflects the likely information content
 of the data (such as sets/trips), but this will require access to more basic data than is currently
-available to the analysts. A review of the approach to calculating the initial “stage 1” sample sizes
+available to the analysts. A review of the approach to calculating the initial "stage 1" sample sizes
 that are input to MULTIFAN-CL will be useful.
 2) It should be confirmed that the composition data are being received in the units and sample size that
 it was recorded in, particularly for the longline fleet. There have also been issues of consistency
@@ -713,7 +686,6 @@ extent of variation in weight-composition due to error about the length-weight r
 predicted conditional age-at-length data (inclusion of aging error is not an available feature in
 MULTIFAN-CL). Also explore sensitivity to including all of the age data irrespective of whether
 the ages are agreed or considered as high confidence
-16
 E.2. Model configurations
 1) Develop a conceptual model of yellowfin tuna in the WCPO and use this along with the regression
 tree approaches developed by the IATTC (e.g., Lennert-Cody et al., 2010, 2013; Maunder et al.,
@@ -729,7 +701,7 @@ between ages.
 6) Check that the observation that effort-based projections in the skipjack assessment impacted
 estimates of population scale does not occur for the yellowfin assessment.
 7) Construct an individual-based model for yellowfin tuna to provide a basis for selecting the time it
-takes for tags to be fully mixed into the population – this will require the development of a model
+takes for tags to be fully mixed into the population - this will require the development of a model
 of movement (e.g., based on an application of SEAPODYM or the approach being developed at
 IATTC).
 8) Explore different starting years for the assessment given the uncertainty regarding past catches.
@@ -767,7 +739,6 @@ and reproductive output-at-age vectors.
 5) Collection of additional information on the conversion from processed to whole weight is needed
 to improve the relationship and also allow inclusion of the additional variation in weight-at-age for
 fitting weight composition data.
-17
 6) Enhance the regular collection and aging of otolith data to use as conditional age-at-length data in
 the stock assessment to improve estimates of growth. These data should be collected broadly across
 the spatial range of the fishery and size classes. Data to validate the ages should also be collected,
@@ -779,21 +750,21 @@ CCSBT. 2020. Report of the Eleventh Operating Model and Management Procedure Tec
 https://www.ccsbt.org/sites/default/files/userfiles/file/docs_english/meetings/meeting_reports/ccsbt_2
 7/report_of_OMMP11.pdf
 Francis, R.I.C.C. 2011. Data weighting in statistical fisheries stock assessment models. Can. J. Fish. Aquat.
-Sci. 68,:124–1138.
+Sci. 68,:124-1138.
 Hoyle, S.D., Williams, A.J., Minte-Vera, C.V. Maunder, M.N. 2023. Approaches for estimating natural
 mortality in tuna stock assessments: Application to global yellowfin tuna stocks. Fish. Res. 257, 106498.
 Lennert-Cody, C.E., Minami, M., Tomlinson, P.K., Maunder, M.N. 2010. Exploratory analysis of spatial
 temporal patterns in length frequency data: An example of distributional regression trees. Fish. Res.
-102: 323–26. https://doi.org/10.1016/j.fishres.2009.11.014.
+102: 323-26. https://doi.org/10.1016/j.fishres.2009.11.014.
 Lennert-Cody, C.E., Maunder, M.N., Aires-da-Silva, A., Minami, M. 2013. Defining population spatial
-units: Simultaneous analysis of frequency distributions and time series. Fish. Res. 139: 85–92.
+units: Simultaneous analysis of frequency distributions and time series. Fish. Res. 139: 85-92.
 https://doi.org/10.1016/j.fishres.2012.10.001.
 Lennert-Cody, C., Valero, J.L., Aires-da-Silva, A., Minte-Vera, C. 2020. Implementing reference point-
 based fishery harvest control rules within a probabilistic framework that considers multiple hypotheses.
 DOCUMENT SAC-11 INF-F REV. https ://www.iattc.org/GetAttachment/46edbd8e-22f9-4bb3-8d26-
 d4cfd24a472c/SAC-11-INF-F_Implementing-risk-analysis.pdf [iattc.org]
 McAllister, M.K., Ianelli, J.N. 1997. Bayesian stock assessment using catch-age data and the
-sampling/importance resampling algorithm. Can. J. Fish. Aquat. Sci. 54: 284–300.
+sampling/importance resampling algorithm. Can. J. Fish. Aquat. Sci. 54: 284-300.
 McGarvey, R., Feenstra, J.E. 2002. Estimating rates of fish movement from tag recoveries: conditioning by
 recapture. Can. J. Fish Aquat. Sci. 59: 1054-1064.
 Maunder, M.N., Xu, H., Lennert-Cody, C.E. 2022. Developing fishery definitions for the skipjack tuna
@@ -816,58 +787,43 @@ IATTC DOCUMENT SAC-13-08. https ://www.iattc.org/GetAttachment/a89cea47-8552-4ab
 5b4115f2e1c9/SAC-13-08_Spatiotemporal-tagging-model-for-skipjack-in-the-EPO.pdf [iattc.org]
 Xu, H., Lennert-Cody, C.E. 2022. Standardizing the purse-seine indices of abundance and associated length
 compositions for skipjack tuna in the eastern Pacific Ocean. IATTC Document SAC-13 INF-K.
-18
 Table 1. Suggested format for a table of model changes. The idea is to simplify ways of showing how
 different model steps/configurations differ. The idea is to choose an order that makes sense then perhaps
 test some sequence increments (perhaps reorder a few changes that appeared to have the most difference in
 model fits or outcomes).
-Model name A B C D …
+Model name A B C D
 Base_2017 X
 Update_2020 X
 Add_comp X X
 Add_tag X X X
-…
 Legend:
 A) Base 2017 model
 B) As A) extend model to 2020 (with only catch totals updated)
 C) As B) but with composition data included
-D) …
-19
+D) ...
 Figures
 Figure 1. (a) Second phase of the stepwise models where most of the changes from 2017 to 2020 diagnostic
 models occurred. Descriptions of changes in each step are in Appendix G. 17_Diag20 = 2020 diagnostic
 model.
-20
 Figure 1(b). Change from the 2017 M-at-age vector to the 2020 M-at-age vector.
-21
-Figure 1(c). Change from the 2017 reproductive output-at-age vector to the 2020 reproductive output-at-age
-vector.
-22
+Figure 1(c). Change from the 2017 reproductive output-at-age vector to the 2020 reproductive output-at-age vector.
 Figure 1(d). Including the conditional age-at-length data (along with not estimating the deviations in length-
 at-age for the first 8 quarters)
-23
 Figure 1(e). The change from the 2017 to the 2020 tagging data set led to more optimistic results. While
 several changes, including the addition of new data, were made to the tag-recapture data, it was found that
 using the 2017 tagging data in the 2020 diagnostic model led to a more pessimistic depletion outcome, and
 using the 2020 tagging data, but restricting it to the tag release groups available for the 2017 assessment
 produced a more optimistic depletion outcome
-24
 Figure 2. Observed vs model-predicted CPUE by region from the 2020 diagnostic model. with loess
 smoothers for quarter.
-25
 Figure 3. Observed vs model-predicted CPUE by three broad spatial areas from the 2020 diagnostic model.
 with loess smoothers for quarter.
-26
-27
 Figure 4. Example of a tagging diagnostic plot, with rows corresponding to recapture region
-28
 Figure 5. Observed and model-predicted mean weights for the fishery fleets where size compositions were
 measured by length in the 2020 diagnostic model. Top has constant Y axis scale.
-29
 Figure 6. Average spawning potential vs average CPUE for the 2020 diagnostic model.
-30
 Appendix A: Panel Biographies
-André E. Punt is a Professor in (and past Director of) the School of Aquatic and Fishery Sciences at the
+Andre E. Punt is a Professor in (and past Director of) the School of Aquatic and Fishery Sciences at the
 University of Washington. He received his BSc, MSc and PhD in Applied Mathematics at the University of
 Cape Town. Before joining the University of Washington, Dr. Punt was a Principal Research Scientist with
 the CSIRO Division of Marine and Atmospheric Research. His research interests include the development
@@ -902,26 +858,25 @@ all the CAPAM workshops and chaired most of them. He has also been a guest edito
 issues is an Editorial Board Member with Fisheries Research. CAPAM has built an excellent reputation
 over the time it has been in existence, which has been recognized through being awarded the American
 Fisheries Society's (AFS) William E. Ricker Resource Conservation Award in 2018 and the American
-Institute of Fishery Research Biologists’ (AIFRB) Outstanding Group Achievement Award in 2017.
+Institute of Fishery Research Biologists' (AIFRB) Outstanding Group Achievement Award in 2017.
 James Ianelli is an affiliate professor at the University of Washington and a senior scientist with the
-NOAA’s Resource Ecology and Fisheries Management Division of the Alaska Fisheries Science Center.
+NOAA's Resource Ecology and Fisheries Management Division of the Alaska Fisheries Science Center.
 Jim began his fisheries career as a tagging technician for the SPC tuna tagging program in 1979 and operated
 throughout the Pacific. He then worked for the IATTC in the mid-1980s on tuna tagging programs off of
-Mexico and in fishing villages in Japan. He became lab director of IATTC’s Achotines facility before
+Mexico and in fishing villages in Japan. He became lab director of IATTC's Achotines facility before
 returning to work at SPC for the tuna program from 1985-1989. He then returned to the US and earned his
 PhD in Fisheries Science at the University of Washington in 1993. Since then, he continues to produce
 annual stock assessments for a number of important groundfish species in the North Pacific. His research
 interests include developing statistical approaches for ecosystem/fisheries conservation management. In
 addition to chairing the Scientific Committee of the South Pacific Regional Fisheries Management
-Organization and the North Pacific Fishery Management Council’s groundfish Plan Team, he serves on the
+Organization and the North Pacific Fishery Management Council's groundfish Plan Team, he serves on the
 Advisory Panel for the Commission for the Conservation of Southern Bluefin Tuna.
-31
 Appendix B: Terms of Reference for an Independent Peer Review of the 2020 WCPO
 Yellowfin Tuna Assessment
 Introduction
 The 2020 yellowfin tuna (YFT) assessment (Vincent et al. 2020) in the WCPO (Western and Central Pacific
 Ocean) conducted by SPC using the MULTIFAN-CL assessment software was accepted by SC16 as the
-‘best available science’ to inform managers of stock status. However, SPC noted that areas of uncertainty
+'best available science' to inform managers of stock status. However, SPC noted that areas of uncertainty
 in the assessment required follow up investigation and expert advice, and that the assessment outcomes
 might provide an overly optimistic perception of stock status and the impact of fishing. SC16 recommended
 that follow-up work, including an independent peer review, was important to improve confidence in future
@@ -937,11 +892,11 @@ Review of stock assessments (Attachment K).
 Background
 The 2020 YFT assessment, beyond the addition of three years of tagging, catch, effort and size composition
 data, involved some notable changes from the previous assessments, namely:
-• The implementation of the index fishery approach that used the geospatial (VAST) approach for
+- The implementation of the index fishery approach that used the geospatial (VAST) approach for
 CPUE standardisation
-• Changes to how size composition data were prepared/reweighted
-• Changes to the tagging data treatment
-• Incorporation of new growth data from otoliths
+- Changes to how size composition data were prepared/reweighted
+- Changes to the tagging data treatment
+- Incorporation of new growth data from otoliths
 Of these changes the tag mixing period, new growth estimation, selectivity assumptions, and data weighting
 appeared to have notable influence on the estimation of the key management quantities. The stock
 assessment indicated a more optimistic level of biomass and depletion than the previous assessments. A key
@@ -959,7 +914,6 @@ review of the 2020 YFT stock assessment in the Western and Central Pacific Ocean
 data inputs, modelling approaches and treatment of uncertainty.
 3. In conjunction with the SPC assessment scientists, identify improvement options that are
 feasible for application to the 2023 YFT assessment.
-32
 Scope
 The key areas for consideration by the peer review panel based on the recommendations of the stock
 assessment report and follow-up considerations of the assessment team are listed below:
@@ -991,7 +945,6 @@ assessment.
 5. Future research areas, with the identification of priorities to improve future assessments.
 While these key topics will be a focus of the peer review, other aspects of the assessment and data inputs
 may become focus areas as the review progresses.
-33
 Key activities and outputs from the peer review
 Activity Output Timeframe
 Review of the 2020
@@ -1038,9 +991,9 @@ assessment workshop to inform
 The panel
 The peer review panel was selected based on a CCM voting process co-ordinated by the secretariat, and
 is:
-Dr André Punt – University of Washington
-Dr Jim Ianelli – NOAA
-Dr Mark Maunder – Inter-American Tropical Tuna Commission
+Dr Andre Punt - University of Washington
+Dr Jim Ianelli - NOAA
+Dr Mark Maunder - Inter-American Tropical Tuna Commission
 Logistics and COVID implications
 The expectation following SC16 was that the review would commence at the start of 2022 with the review
 reporting to SC18 (August 2022) and informing development of the 2023 YFT assessment. The
@@ -1054,13 +1007,12 @@ of the requirement for a quarantine period (currently 7 days for arrivals in New
 This is not ideal given the busy schedules of the review panel and the SPC assessment staff. It now appears
 that the workshop will not be feasible before SC18 and will need to be scheduled later in 2022, SPC
 suggested two options for the SC17 to consider:
-34
 1. The review report be presented to the SPC Pre-Assessment Workshop in 2023 to provide the
 opportunity for CCMs to comment and discuss recommendations and approaches to consider for
 the 2023 YFT (and BET) assessment. In that case the review report would be formally submitted
 to SC19 as a supporting document for the 2023 assessment.
 2. Submit the review report some time after SC18 for intersessional consideration, either through an
-‘Online Discussion Forum’ or an online meeting, or potentially both. Submit the revised report,
+'Online Discussion Forum' or an online meeting, or potentially both. Submit the revised report,
 with responses to comments, to the Secretariat for posting, and then present an overview of the
 review findings and recommendations at the SPC Pre-Assessment Workshop in 2023.
 Note: SC17 (summary report paras 242-245) did not provide any specific recommendations on the process
@@ -1077,7 +1029,6 @@ assessment of bigeye tuna in the western and central Pacific Ocean.WCPFC-SC16-20
 Vincent, M., Ducharme-Barth, N., Hamer, P., Hampton, J., Williams P., and Pilling, G. (2020). Stock
 assessment of yellowfin tuna in the western and central Pacific Ocean. WCPFC-SC16-2020/SA-WP-04-
 Rev2
-35
 Appendix 1
 Relevant extract from SC16 "Outcomes Document https://www.wcpfc.int/node/47653
 3.6.2 Peer Review Recommendations
@@ -1104,7 +1055,6 @@ The draft terms of reference would give consideration to including the bigeye st
 in the external review process.
 74. Further, SC16 noted that peer review experts of the required calibre may not be easy to secure,
 thus efforts should be made during late 2020/early 2021 to have them express interest
-36
 Appendix C: Issues identified for the review meeting
 A. Comparing 2017 and 2020 assessment
 1. The 2020 assessment estimates a more optimistic stock status than the 2017 assessment. Is this
@@ -1160,7 +1110,6 @@ I. Data collection
 1. Are there gaps in the data collection that could be improved in the sampling programme?
 2. What fisheries and regions should be sampled for future close-kin mark-recapture data collection?
 3. What sex-specific data do we have and how are/could they be used?
-37
 J. CPUE
 1. Should effort creep be included in the CPUE data and what is the best way to do that?
 2. Can the VAST analysis from 2020 of yellowfin longline CPUE data be improved for the next
@@ -1203,29 +1152,28 @@ N. Summary plots and tables
 showing median length in the model population?
 3. Results: Population numbers at age as a table and/or bubble plot?
 4. Results: Also plot CPUE by year instead of quarters?
-38
 Appendix D: Background documents considered by the Panel
-• Ducharme-Barth, N. and M. Vincent. Analysis of Pacific-wide operational longline dataset for bigeye
+- Ducharme-Barth, N. and M. Vincent. Analysis of Pacific-wide operational longline dataset for bigeye
 and yellowfin tuna catch-per-unit-effort (CPUE). WCPFC-SC16-2020/SA-IP-07
-• Hoyle, S., Nicol, S. and D. Itano. 2009. Revised biological parameter estimates for application in
+- Hoyle, S., Nicol, S. and D. Itano. 2009. Revised biological parameter estimates for application in
 yellowfin stock assessment. WCPFC-SC5-2009/BI-WP-3-rev 2.
-• McKechnie, S., Harley, S., Davies, N., Rice, J., Hampton, J. and A. Berger. 2014. Basis regional
+- McKechnie, S., Harley, S., Davies, N., Rice, J., Hampton, J. and A. Berger. 2014. Basis regional
 structures used in the 2014 tropical tuna assessments, including regional weights. WCPFC-SC10-
 2014/SA-IP-02.
-• Scutt Phillips, J., Lehodey, J., Hampton, J., Senina, I., and S. Nicol. 2022. Quantifying rates of mixing
+- Scutt Phillips, J., Lehodey, J., Hampton, J., Senina, I., and S. Nicol. 2022. Quantifying rates of mixing
 in tagged, WCPO skipjack tuna. Technical Report WCPFC-SC18-2022/SA-WP-04.
-• Tremblay-Boyer, L., McKechnie, S., Pilling, G. and J. Hampton. 2017. Stock assessment of yellowfin
+- Tremblay-Boyer, L., McKechnie, S., Pilling, G. and J. Hampton. 2017. Stock assessment of yellowfin
 tuna in the western and central Pacific Ocean. WCPFC-SC13-2017/SA-WP-06 (Rev 1).
-• Vincent, M., Ducharme-Barth, N., Hamer, P., Hampton, J., Williams, P. and G. Pilling. 2020a. Stock
+- Vincent, M., Ducharme-Barth, N., Hamer, P., Hampton, J., Williams, P. and G. Pilling. 2020a. Stock
 assessment of yellowfn tuna in the western and central Pacific Ocean. WCPFC-SC16-2020/SA-WP-04
 (Rev3).
-• Vincent, M., Ducharme-Barth, N. and P. Hamer. 2020b. Background analyses for the 2020 stock
+- Vincent, M., Ducharme-Barth, N. and P. Hamer. 2020b. Background analyses for the 2020 stock
 assessments of bigeye and yellowfin tuna. WCPFC-SC16-2020/SA-IP-06.
 Appendix E: Participants during the review
 Review Team
 Jim Ianelli: NOAA, NMFS
 Mark Maunder: IATTC
-André Punt: University of Washington
+Andre Punt: University of Washington
 SPC
 John Hampton
 Nick Davies
@@ -1237,7 +1185,6 @@ Thom Teears
 Nan Yao
 Sam McKechnie
 Simon Nicol
-39
 Appendix F: Requests to the Analysts
 # Request Rationale Response
 A Provide assessment model outcomes in the
@@ -1264,7 +1211,7 @@ the CPUE data.
 CPUE is a key data source in the assessment and the Panel wished to better
 understand the various factors involved in how these data are used in the
 assessment.
-This was covered in Dr. Nick Davies’ presentation during discussion of the new CPUE
+This was covered in Dr. Nick Davies' presentation during discussion of the new CPUE
 likelihood in MULTIFAN-CL.
 D Plot (for the 2020 diagnostic model) the
 observed versus model-predicted CPUE
@@ -1300,7 +1247,8 @@ same predicted density).
 F Provide plots of the SSB and recruitment
 separately for the north, equatorial and south
 areas for the 2020 diagnostic model
-The Panel wished to better understand the trends in relative abundance. Figure F.1 shows that the depletion differs spatially and by 2020, with about half of the
+The Panel wished to better understand the trends in relative abundance.
+Figure F.1 shows that the depletion differs spatially and by 2020, with about half of the
 biomass in the north and south areas.
 G Document the basis for the regions and the
 rationale for the selected boundaries.
@@ -1343,7 +1291,6 @@ The analysts noted that some of the putative changes reflected changes to
 aspects of the model in addition to the stated change, and some of the
 undocumented changes may be influential.
 Appendix G lists the specifications for each of the model runs in the bridging analysis.
-40
 # Request Rationale Response
 K Create a table of parameters for the 2020
 diagnostic model, indicating which are
@@ -1356,7 +1303,7 @@ an evaluation of how the number of estimated parameters changes with changes to
 model configuration
 L Document how many tagged animals were
 dropped from the analysis when the
-definition of “2 quarters” was changed to 182
+definition of "2 quarters" was changed to 182
 days.
 This change appears to have a major impact on the results of the
 assessment, but it is unclear how many tags are involved.
@@ -1415,7 +1362,7 @@ R Document the basis for the 2020
 reproductive output-at-age vector.
 Insufficient information was available to fully understand how the vector
 was constructed.
-The method is fully documented in Hoyle et al. (2009). It seems the “Full” sex ratios-at-
+The method is fully documented in Hoyle et al. (2009). It seems the "Full" sex ratios-at-
 age (Hoyle et al., 2009) were used in the 2011, 2014 and 2017 assessments, but the sex
 ratio-at-length data were changed to being based on the observer records for the 2020
 assessment.
@@ -1440,12 +1387,12 @@ U Evaluate the fits to the data on length-at-age:
 if the residual is positive or negative, and (b)
 on the growth curve plot the points colored
 by region.
-The Panel wished to understand the evidence that growth differs spatially. The results (Figure F.3) are suggestive of spatial difference in growth (faster growth in
+The Panel wished to understand the evidence that growth differs spatially.
+The results (Figure F.3) are suggestive of spatial difference in growth (faster growth in
 the temperate areas), but the data set remains quite small. Evaluation of the modes in the
 length composition using the MULTIFAN-CL viewer corroborated these findings
-41
 # Request Rationale Response
-V Review the properties of the “discarded”
+V Review the properties of the "discarded"
 otoliths (were they older within length-
 classes)
 Some otoliths were discarded as unreadable, but they should be random
@@ -1465,8 +1412,7 @@ animals is over-estimated. This occurs even though the conditional age-at-length
 fully weighted compared to the other data sources.
 X Estimate of M-at-age in the 2020 assessment The Panel could not discern the exact algorithm used to calculate M-at-age
 from the assessment report.
-The average M dropped from 0.23 to 0.2 yr-1
-, but the Panel remains unconvinced that M
+The average M dropped from 0.23 to 0.2 yr-1, but the Panel remains unconvinced that M
 can be estimated within the assessment.
 Y Run the 2020 diagnostic model with the 2017
 tagging data. If the difference in final
@@ -1534,13 +1480,12 @@ and predicted composition by fishery (from
 the length-frequency data) to assess if the
 right number were being removed given the
 model fits the catch weight well.
-Some of the length-frequency fits are poor and may result in the “wrong”
+Some of the length-frequency fits are poor and may result in the "wrong"
 number of animals being removed from the population.
 The plot was produced (Figure 5) and indicated that the model overestimates the mean
 weight fisheries with a mean catch weight of 15 or less kg and vice versa. It was noted
 that some of these are large fisheries and plots like Figure 5 should be routinely included
 in assessment reports.
-42
 # Request Rationale Response
 FF Document how the spline selectivities were
 specified (e.g., how were the ages of the
@@ -1576,7 +1521,8 @@ shaped, but surprisingly to little change to the spawning potential.
 II Run the 2020 diagnostic model where
 selectivity for no fisheries (including index
 fisheries) is assumed be asymptotic.
-This is a more extreme version of Request HH. This request led to results very similar to those for request HH, but this was unexpected.
+This is a more extreme version of Request HH.
+This request led to results very similar to those for request HH, but this was unexpected.
 JJ Is there a measure of the number of
 operations that could be used as the sample
 size (e.g., actual sample size, effective
@@ -1599,13 +1545,15 @@ composition data were improved, but not to the extent of the 2017 assessment.
 LL Update the plots showing the fits to the mean
 lengths and mean weights to include the
 arithmetic average mean
-This will help discern patterns in these fits. This modification to the plot was implemented and highlighted some fisheries for which
+This will help discern patterns in these fits.
+This modification to the plot was implemented and highlighted some fisheries for which
 the means of the observed and model-predicted lengths and weights are substantially
 discrepant (Figure 5).
 MM Run the 2020 diagnostic model with the
 Richards growth curve and a von Bertalanffy
 growth model with estimated deviations
-This is a follow-up to some earlier requests The model results were unrealistic with the model not mimicking the catches adequately.
+This is a follow-up to some earlier requests.
+The model results were unrealistic with the model not mimicking the catches adequately.
 See Request RR.
 NN Run the 2020 diagnostic model with the
 grouped fisheries ungrouped
@@ -1626,7 +1574,7 @@ The Panel wished to understand if the scale of the biomass in regions 1, 2,
 9, 5, and 6 was driven by the assumption that catchability and selectivity
 for the index fisheries were the same.
 The estimates of current biomass are largely insensitive to this change, while early
-biomass estimates are higher – the relative biomass by region matches the average
+biomass estimates are higher - the relative biomass by region matches the average
 CPUE (Figures F.7 and F.8)
 QQ Rerun the 2020 diagnostic model with the
 effort for regions 1, 2, 9, 5 and 6 multiplied
@@ -1637,9 +1585,8 @@ biomass in regions 1, 2, 9, 5, and 6 was driven by the assumption that
 catchability and selectivity for the index fisheries are assumed to be same
 for all regions.
 The estimates of current biomass are largely insensitive to this change, while early
-biomass estimates are higher – the relative biomass by region matches the average
+biomass estimates are higher - the relative biomass by region matches the average
 CPUE (Figures F.7 and F.8)
-43
 # Request Rationale Response
 RR Nick to explore catch penalty and try to
 repeat request NN.
@@ -1670,7 +1617,6 @@ The Panel wished to understand the influence of CPUE scaling on the
 results of the assessment.
 The plot was produced (Figure 6), which shows that the average spawning potential
 matches the average CPUE very closely.
-44
 Figure F.1. Spawning potential, unfished spawning potential and depletion for the north, equatorial
 (central), Indonesia/Philippines (IndoPhil) and south areas. Central = model regions 3, 4, 8;
 IndoPhil = model region 7; North = model regions 1, 2; South = model regions 5, 6, 9.
@@ -1761,11 +1707,9 @@ SB depletion
 2018
 SB depletion
 2017_mat 2020_mat
-45
 Figure F.3a. Conditional length-at-age residuals for the 2020 diagnostic model (coloured, sized by
 number).
 Figure F.3b. Growth curve with 95% confidence interval for the 2020 diagnostic model.
-46
 Figure F.4. Number of animals sampled for aging and the proportion rejected because of a lack to reach
 agreement on age.
 Figure F.5. Conditional age-at-length residuals for the 2020 diagnostic model (colored by region, size
@@ -1814,14 +1758,11 @@ Age
 Reject otoliths
 N
 Percent rejected
-47
 Figure F.6. Spawning potential, unfished spawning potential and depletion when the 2020 diagnostic model
 is based on the 2017 tagging data.
-48
 Figure F.7. Comparison among models for the total adult biomass trajectories (top panel), and the
 trajectories of adult biomass depletion (bottom panel) for the 2020 diagnostic model and the models of
 requests PP and QQ, and a variant of the request QQ model with lower weight on the CPUE data.
-49
 Figure F.8. Comparison among models for the normalised mean CPUE and regional adult spawning
 potential for the 2020 diagnostic model and the models of requests PP and QQ.
 0
@@ -1843,14 +1784,12 @@ CPUE BIOM
 1 2 3 4 5 6 7 8 9
 Re-scaled cases
 CPUE_rescld subtrop_cp_rewt subtrop_cp_rewtCV08
-50
 Figure F.9. Conditional age-at-length residuals for the variant of the 2020 diagnostic model that included
 the Richards growth curve (colored by region, size proportion to number of samples).
-51
 Appendix G. Summary of comparison of stepwise data inputs
 The stepwise model developments changes introduced in the 2020 assessment that had the greatest effects
 are detailed below:
-09_IdxNoeff … 10_SelUngroup
+09_IdxNoeff ... 10_SelUngroup
 Flags
 87 flags were changed, related to selectivity grouping, selectivity shape, length sample size, and
 catchability deviations.
@@ -1860,15 +1799,15 @@ grouping
 Fisheries 4, 9, 11,
 12, 29
 Grouped Split into four groups Fish flag 24
-” Fisheries 13, 15, 24,
+" Fisheries 13, 15, 24,
 25, 30
 Grouped Split into four groups Fish flag 24
-” Fisheries 17, 23, 32 Grouped Split into three groups Fish flag 24
-” Fisheries 10, 27 Ungrouped Grouped Fish flag 24
+" Fisheries 17, 23, 32 Grouped Split into three groups Fish flag 24
+" Fisheries 10, 27 Ungrouped Grouped Fish flag 24
 Selectivity shape Fishery 7 Non-decreasing with
 age
 Can decrease with age Fish flag 16
-” Fishery 28 Zero for all ages over
+" Fishery 28 Zero for all ages over
 24 quarters
 Not constrained to be zero Fish flag 16
 Length sample size Fisheries 7, 8, 29 Divisor = 20 Divisor = 40 Fish flag 49
@@ -1880,7 +1819,7 @@ change
 Can vary between quarters Fish flag 23
 Data
 (No changes to data.)
-10_SelUngroup … 11_JPTP
+10_SelUngroup ... 11_JPTP
 Flags
 606 flags were changed, related to selectivity shape and adding tag groups.
 Model setting Applies to Before After Flag
@@ -1891,33 +1830,32 @@ Fisheries 1, 5, 6, 9,
 Can decrease with
 age
 Non-decreasing with age Fish flag 16
-” Fisheries 17, 20, 21,
+" Fisheries 17, 20, 21,
 22, 23, 24, 28, 32
 Not constrained to
 be zero
 Zero for all ages over 25
 quarters
 Fish flag 16
-” Fisheries 2, 4, 5, 6, 7,
+" Fisheries 2, 4, 5, 6, 7,
 9, 11, 12, 29
 Not constrained to
 be zero
 Zero for ages 1-2 quarters Fish flag 75
 Tag file
-• Define mixing period of the tag recaptures to be 182 days for each tag release.
-• Tag release groups are increased from 87 to 145 because JPTP program tags were added.
-52
-• There are more recaptures for RTTP and PTTP programs. This is a change in the 2020
+- Define mixing period of the tag recaptures to be 182 days for each tag release.
+- Tag release groups are increased from 87 to 145 because JPTP program tags were added.
+- There are more recaptures for RTTP and PTTP programs. This is a change in the 2020
 assessment, including tags without recapture locations in the purse seine fisheries, as well as tags
 added after revising the tagger effect analysis.
-• Number of effective releases are higher for some length bins in all programs. This may be a
+- Number of effective releases are higher for some length bins in all programs. This may be a
 change to usability correction for having additional recaptures.
 Ini file
-• With more release groups, the ini file has more lines to assign reporting rates, priors, and
+- With more release groups, the ini file has more lines to assign reporting rates, priors, and
 penalties for those additional release groups.
 Frq file
-• Number of release groups was updated.
-11_JPTP … 12_Age10LW
+- Number of release groups was updated.
+11_JPTP ... 12_Age10LW
 Flags
 41 flags were changed, related to selectivity shape.
 Model setting Applies to Before After Flag
@@ -1927,12 +1865,12 @@ Constant for all ages
 over 37 quarters
 Fish flag 3
 Ini file
-• Number of age classes increased from 28 to 40 quarters.
-• Maturity-at-age updated for all age classes and extended for the increased number of age classes.
-• Natural mortality is slightly decreased from 0.25 to 0.23.
-• Age parameters updated for all age classes and extended for the increased number of age classes.
-• Length-weight parameters updated.
-12_Age10LW … 13_CondAge
+- Number of age classes increased from 28 to 40 quarters.
+- Maturity-at-age updated for all age classes and extended for the increased number of age classes.
+- Natural mortality is slightly decreased from 0.25 to 0.23.
+- Age parameters updated for all age classes and extended for the increased number of age classes.
+- Length-weight parameters updated.
+12_Age10LW ... 13_CondAge
 Flags
 196 flags were changed, related to growth curve estimation, initial population, fishing mortality,
 catch likelihood, and selectivity shape.
@@ -1942,28 +1880,27 @@ estimation
 Parameters Not estimated, apart
 from variance
 Not estimated Parest flag 32
-” Early ages First 8 quarters are
+" Early ages First 8 quarters are
 independent
 parameters
 All ages follow growth
 curve
 Parest flag 173
-” Penalty No penalty wt for length
+" Penalty No penalty wt for length
 estimation
 Penalty wt of 1 for
 length estimation
 Parest flag 182
-” Age-length data Model fit to observed
+" Age-length data Model fit to observed
 data not activated
 Model fit to observed
 data activated
 Parest flag 240
 Initial population Scaling pop Estimated Disabled Age flag 113
-53
 Model setting Applies to Before After Flag
 Fishing mortality Max F 0.7 5.0 Age flag 116
 Catch likelihood Common wt 100,000 10,000 Age flag 144
-” Specific wt 0 100,000 Fish flag 45
+" Specific wt 0 100,000 Fish flag 45
 Selectivity shape Fisheries 17, 23-
 24, 28, 32
 Constant for all ages
@@ -1971,23 +1908,23 @@ over 37 quarters
 Constant for all ages
 over 12 quarters
 Fish flag 3
-” Fisheries 20-22 Constant for all ages
+" Fisheries 20-22 Constant for all ages
 over 37 quarters
 Constant for all ages
 over 24 quarters
 Fish flag 3
-” Fishery 6 Logistic shape Cubic spline, or length-
+" Fishery 6 Logistic shape Cubic spline, or length-
 specific selectivity
 Fish flag 57
-” Fishery 28 4 spline nodes 5 spline nodes Fish flag 61
+" Fishery 28 4 spline nodes 5 spline nodes Fish flag 61
 Age-length file
-• Addition of otolith data through conditional age-at-length.
+- Addition of otolith data through conditional age-at-length.
 Ini file
-• Updated maturity-at-age.
-• Natural mortality updated.
-• Age parameters updated.
-• Length-weight parameters updated.
-13_CondAge … 14_MatLength
+- Updated maturity-at-age.
+- Natural mortality updated.
+- Age parameters updated.
+- Length-weight parameters updated.
+13_CondAge ... 14_MatLength
 Flags
 1 flag was changed, related to maturity.
 Model setting Applies to Before After Flag
@@ -1998,25 +1935,24 @@ spline
 Age flag 188
 Data
 (No changes to data.)
-14_MatLength … 15_NoSpnFrac
+14_MatLength ... 15_NoSpnFrac
 Flags
 (No flags were changed in this step.)
 Ini file
-• Updated maturity at length.
-15_NoSpnFrac … 16_Size60
+- Updated maturity at length.
+15_NoSpnFrac ... 16_Size60
 Flags
 83 flags were changed, related to length sample size and weight sample size.
-54
 Model setting Applies to Before After Flag
 Length sample size Fisheries 1-2, 4, 7-9, 11-12, 29, 33-41 Divisor = 40 Divisor = 120 Fish flag 49
 Weight sample size Fisheries 1-2, 4, 7-9, 11-12, 29, 33-41 Divisor = 40 Divisor = 120 Fish flag 50
 Length sample size Fisheries 3, 5-6, 10, 13-28, 30-32 Divisor = 20 Divisor = 60 Fish flag 49
 Weight sample size Fisheries 3, 5-6, 10, 13-28, 30-32 Divisor = 20 Divisor = 60 Fish flag 50
 Ini file
-• Updated tag reporting group flags.
-• Updated maturity at age and maturity and length.
-• Updated von Bertalanffy parameters.
-16_Size60 … 17_Diag20
+- Updated tag reporting group flags.
+- Updated maturity at age and maturity and length.
+- Updated von Bertalanffy parameters.
+16_Size60 ... 17_Diag20
 Flags
 12 flags were changed, related to selectivity shape.
 Model setting Applies to Before After Flag
@@ -2027,7 +1963,6 @@ to be zero
 Zero for age 1 quarter Fish flag 75
 Data
 (No changes to data.)
-55
 Appendix H. Summary of panel key recommendations and suggestions and SPC responses.
 Panel key recommendations and suggestions SPC response
 Resourcing: The Panel consequently recommends that the analysts be
@@ -2061,7 +1996,7 @@ paper on options for allowing more time for SC
 participants to review assessments prior to SC
 meetings.
 Model changes: A step in a bridging analysis should involve a single
-change only, with perhaps “minor” changes to the MULTIFAN-CL
+change only, with perhaps "minor" changes to the MULTIFAN-CL
 settings that are needed to ensure convergence. Table 1 provides a
 simplified example format that may aid in documenting changes to
 model specifications. The Panel recommends a table like this (or
@@ -2110,13 +2045,12 @@ available. Developing an appropriate sampling
 design and investigating the impacts of the quantity
 and spatio-temporal coverage of the conditional
 age-at-length data is warranted. Sampling would
-56
 benefit from greater contribution across the WCPFC
 membership to collect samples and provide to the
 SPC tissue bank.
 Size composition: No specific recommendations were provided but the
 Panel discussed the issue of the weighting scheme for composition
-data. They noted “The current weighting scheme gives equal weight to
+data. They noted "The current weighting scheme gives equal weight to
 all composition data sets with a sample size (number of fish measured)
 of at least 1,000. Moreover, the weighting scheme does not account for
 how the samples were collected (e.g., large numbers from a few
@@ -2124,15 +2058,15 @@ sets/trips or small numbers from many sets/trips). Consideration
 should be given to weighting the composition data using a metric that
 reflects the likely information content of the data (such as sets/trips),
 but this will require access to more basic data than is currently
-available to the analysts.” They also noted that, “Therefore, the
+available to the analysts." They also noted that, "Therefore, the
 sample size of the composition data should be analyzed outside the
 stock assessment model (e.g., using bootstrap analysis or spatio-
 temporal models) or the appropriate measure of sample size chosen
-(e.g., number of sets or trips” and “These approaches generally
+(e.g., number of sets or trips" and "These approaches generally
 assume that the relative among-year sample size is maintained, but
 modifications to the maximum have been proposed (e.g., asymptotic
 functions). The best approach has yet to be determined and is still an
-active topic of research “.
+active topic of research ".
 We have begun exploring options for alternative
 measures for input (stage 1) sample sizes for size
 composition data. However, the current data
@@ -2211,7 +2145,6 @@ modelling investigations may also result in
 improved confidence in the abundance indices and
 the assumptions required to use these as information
 on relative regional biomass in the model.
-57
 Effort creep: The Panel suggests that sensitivity analyses should be
 conducted to explore what levels of effort creep are required to
 influence management quantities, but that the effort creep scenarios
@@ -2311,7 +2244,6 @@ management advice. This may be discussed at
 PAW. We will continue to support work on
 providing estimation of historical and current
 uncertainty in the reported catches through the
-58
 WPEA project. We will confirm through our data
 team, and if necessary DWFNs whether data
 received by SPC is received in the units that catches
@@ -2415,7 +2347,6 @@ k) This is a good suggestion that we will
 consider when reviewing the size
 composition data and fishery definitions.
 There are likely to be some poorly sampled
-59
 fisheries, with low catches with shared
 selectivity, that are difficult to fit.
 The issue of shared selectivity for the index fisheries
@@ -2430,7 +2361,7 @@ is information about recruitment in the data. The model should be run
 estimating these recruitments to determine the impact on the results.
 The panel provided a commentary and the appropriate use of the log-
 normal bias correction. They also discussed the alternative approaches
-to treating early recruitments where information is limited – either
+to treating early recruitments where information is limited - either
 setting recruitment deviates for early years to zero or estimating them,
 where the latter my then compensate for model misspecification. They
 note that, this approach is also associated with the selection of the start
@@ -2506,14 +2437,13 @@ the Lennert-Cody et al. method. These analyses will
 be considered in developing a conceptual model for
 yellowfin population and fishery structure and may
 lead to proposed simplified model spatial structure.
-We don’t expect to have the time available in 2023
+We don't expect to have the time available in 2023
 prior to the SC19 to run models in different
 platforms such as Stock Synthesis but do intend to
 explore simpler spatial structures. Realism
 constraints are useful, and we will aim to identify
 these where possible as part of the conceptual
 model.
-60
 e. To the extent possible, multiple fisheries based on the same gear
 within the same region should be avoided, unless needed given
 difficulties in replicating tag returns.
@@ -2524,7 +2454,7 @@ Some further suggestions for model simplification were:
 g. Consider a model based on data for only the equatorial areas
 (regions 7, 8, 3 and 4) modelled as a single area and compare its
 results with an equivalently parameterized Stock Synthesis model.
-The model would be structured as “fleets-as-areas” with the fleets
+The model would be structured as "fleets-as-areas" with the fleets
 selected using, for example, the regression tree approach outlined
 above.
 h. Allow juvenile movement rates to differ from those for adults
@@ -2571,8 +2501,8 @@ available for the 2023 assessments. We will also
 consider the discussions at the workshops
 suggested, and staff will attend the Tuna CAPAM in
 New Zealand, ideas form these forums will be
-discussed at the PAW – we hope these discussions
-might provide some useful and ‘feasible’
+discussed at the PAW - we hope these discussions
+might provide some useful and 'feasible'
 approaches to incorporate into the 2023 assessments
 of yellowfin and bigeye tuna.
 Model diagnostics: The panel note that the push by SPC to develop
@@ -2586,7 +2516,6 @@ displaying diagnostics and key assessment results,
 including new diagnostics suggested by the peer
 review panel. The Shiny app. approach will become
 the main platform for displaying and comparing
-61
 model outputs and diagnostics and will be available
 for external scientists to view.
 Recent MULTIFAN-CL model developments:
@@ -2606,13 +2535,13 @@ The Dirichlet-Multinomial distribution for length- and weight-
 composition data: The Panel endorses this approach but recommends
 that it be considered alongside the robust normal distribution and
 McAllister-Ianelli tuning. The Panel notes that all methods for
-weighting composition data depend on ‘stage-1’ sample sizes and
+weighting composition data depend on 'stage-1' sample sizes and
 emphasizes the importance of specifying these correctly.
-The panel’s endorsement of the catch conditioned
+The panel's endorsement of the catch conditioned
 approach supports the use of the method for the
 upcoming assessments. We acknowledge the
-panel’s caution on the use of the orthogonal
-polynomial recruitment, which we don’t expect to
+panel's caution on the use of the orthogonal
+polynomial recruitment, which we don't expect to
 apply in the yellowfin or bigeye assessments.
 Improvements to the CPUE likelihood will be
 included as part of the MFCL development
@@ -2636,7 +2565,7 @@ For the future research areas listed (pages 13-16)
 and other outcomes of the review, we consider the
 key focus areas for the coming assessments will
 include:
-• improving the model fits to size
+- improving the model fits to size
 composition data. This may benefit from
 applying size-based selectivity rather than
 age-based selectivity, dependent on
@@ -2644,28 +2573,27 @@ additional MFCL development work. The
 work on size composition data will also
 consider alternative initial sample sizes
 and data weighting approaches.
-• improving the reliability of the abundance
+- improving the reliability of the abundance
 indices, especially in how they are applied
 to inform the model on relative biomass
 among regions.
-• procedural practices such as documenting
+- procedural practices such as documenting
 the bridging analysis, model assumptions
 and settings, and the enhancement of
 model diagnostics. Model convergence
 criteria will be also considered.
-• review of model spatial structure,
+- review of model spatial structure,
 including the life-history conceptual
 model and consideration of spatial
 patterns in size composition and or CPUE.
-• developing checks on biological
+- developing checks on biological
 plausibility including recruitment
 distribution and movement patterns with
 age.
-62
-• consider alternative age-based movement
+- consider alternative age-based movement
 hypothesis, and test sensitivity to different
 assumption on movement with age.
-• we will consider the options for treatment
+- we will consider the options for treatment
 of tag mixing assumptions; however, we
 do not expect to be able to develop a
 similar simulation model as applied in the
@@ -2677,15 +2605,14 @@ patterns that may support movement
 hypotheses. We will attempt to reduce the
 occurrence of tag reporting rates on
 bounds.
-• the approach to characterising uncertainty
+- the approach to characterising uncertainty
 will be reviewed based on
 recommendations of the various
 workshops on this topic, notably the Tuna
 Assessment Best Practices CAPAM
 workshop in New Zealand in March, and
 the external review.
-• the future research recommendations
+- the future research recommendations
 noted by this peer review will be
 considered when updating the proposed
 Tuna Research Plan in 2023.
-
