@@ -1,0 +1,5 @@
+The BET assessment used two natural mortality scenarios:
+
+0.1124
+0.1459
+
