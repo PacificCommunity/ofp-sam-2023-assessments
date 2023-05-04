@@ -36,3 +36,7 @@ Regions                  |      2 | 5, 9
 Movement                 |      2 | Estimated, Fixed SEAPODYM coefficients
 
 3 * 2 * 3 * 4 * 2 * 2 * 2 = 576
+
+<p><img src="bet_2020_figure_36.png" width="600">
+
+<p><img src="yft_2020_figure_51.png" width="600">
