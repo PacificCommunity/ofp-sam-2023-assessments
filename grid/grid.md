@@ -6,7 +6,7 @@
 
 Axis                     | Levels | Option
 ------------------------ | ------ | -------------------------------------------
-Steepness                |      3 | 0.65, 0.8* or 0.95
+Steepness                |      3 | 0.65, 0.80* or 0.95
 Natural mortality        |      2 | Diagnostic* or M-hi
 Size frequency weighting |      4 | sample sizes divided by 20*, 60, 200 or 500
 
@@ -29,7 +29,7 @@ Tag mixing               |      2 | 1 quarter, 2 quarters*
 
 Axis                     | Levels | Option
 ------------------------ | ------ | -----------------------------------------------------
-Steepness                |      3 | 0.65, 0.8, 0.95
+Steepness                |      3 | 0.65, 0.80, 0.95
 Growth                   |      2 | von Bertalanffy, Richards
 Natural mortality        |      3 | 2020 value, Estimated, Lorenzen
 Size frequency weighting |      4 | Sample sizes divided by 20, 60, 200, 500
