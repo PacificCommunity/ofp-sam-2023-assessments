@@ -34,8 +34,9 @@ Size frequency weighting |      4 | sample sizes divided by 20*, 60, 200 or 500
 Tag mixing               |      2 | 1 quarter, 2 quarters*
 Regions                  |      2 | 5, 9
 Movement                 |      2 | Estimated, Fixed SEAPODYM coefficients
+CPUE method              |      2 | 2020 approach, biological habitat
 
-3 * 2 * 3 * 4 * 2 * 2 * 2 = 576
+3 * 2 * 3 * 4 * 2 * 2 * 2 * 2 = 1152
 
 ## Figures from 2020
 
