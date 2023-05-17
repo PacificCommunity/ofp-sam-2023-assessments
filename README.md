@@ -14,6 +14,7 @@
 
 ## Analyses
 
+* [Stepwise workplan](stepwise/stepwise_workplan.pdf)
 * [Regional structure](https://github.com/PacificCommunity/ofp-sam-yft-2023-regions)
 
 ## Shiny apps
