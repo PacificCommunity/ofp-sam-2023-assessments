@@ -31,14 +31,13 @@ Axis                     | Levels | Option
 ------------------------ | ------ | -----------------------------------------------------
 Steepness                |      3 | 0.65, 0.80, 0.95
 Growth                   |      2 | von Bertalanffy, Richards
-Natural mortality        |      3 | 2020 value, Estimated, Lorenzen
+Natural mortality        |      4 | 2020 value, Estimated scaling, Lorenzen, Hoyle et al
 Size frequency weighting |      4 | Sample sizes divided by 20, 60, 200, 500
 Tag mixing               |      2 | 1 quarter, 2 quarters
 Regions                  |      2 | 5, 9
 Movement                 |      2 | Estimated, Fixed SEAPODYM coefficients
-CPUE method              |      2 | 2020 approach, Biological habitat
 
-3 * 2 * 3 * 4 * 2 * 2 * 2 * 2 = 1152
+3 * 2 * 4 * 4 * 2 * 2 * 2 = 768
 
 ## Figures from 2020
 
