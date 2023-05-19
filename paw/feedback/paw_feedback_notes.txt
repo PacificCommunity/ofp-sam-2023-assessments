@@ -7,3 +7,13 @@ The short time window between full data update and SC is an issue
 Simon Hoyle, John Hampton
 More than an interesting sensitivity run, could be used in the grid
 Especially viable when using Inna's SEAPODYM movement coefficients
+
+3. Why not use both lenth and weight data from LL fisheries?
+Mark Maunder
+Mark's point is that you can use both, unless we have W->L conversion problem
+John Hampton and Simon Hoyle: the weight comps data collection was sourced to the
+commercial fleet, which collects a large amount of data that are representative
+of the catch composition
+John Hampton and Simon Hoyle: the length comps data collection, on the other
+hand, is limited to a small number of training vessels and similar exercises,
+which is not representative of the catch composition

@@ -1,0 +1,23 @@
+Graham asks for input on a document called
+
+Options to Address Time Challenges in the Review of WCPFC Stock Assessment
+Inputs
+
+2 Introduction
+
+SC18 asked for a discussion at SC19 about reviewing assessment inputs
+
+We're talking about inputs, not changes in the assessment model settings
+
+3 Current Arrangements and Practical Considerations
+
+4 Options for Providing Additional Time for SC Review
+
+Table item 7, Benefits
+
+* rather that -> rather than
+
+Table item 11, Drawbacks
+
+* A grid with fewer uncertainty factors might not represent the full uncertainty
+  and could thus underestimate the risk of unwanted management outcomes.
