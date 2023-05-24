@@ -1,6 +1,6 @@
 ## Preprocess data, write TAF data tables
 
-## Before: plot-10.par.rep (boot/data)
+## Before: plot-12.par.rep (boot/data)
 ## After:  cpue.csv (data)
 
 library(TAF)
@@ -9,7 +9,7 @@ library(FLR4MFCL)
 mkdir("data")
 
 # Read MFCL results
-rep <- read.MFCLRep("boot/data/plot-10.par.rep")
+rep <- read.MFCLRep("boot/data/plot-12.par.rep")
 
 # Extract CPUE obs and fit
 obs <- as.data.frame(cpue_obs(rep))
