@@ -15,8 +15,8 @@ cpue <- read.taf("data/cpue.csv")
 cpue$smooth <- NA_real_
 for(a in sort(unique(cpue$area)))
 {
-  fm <- loess(obs~time, cpue, subset=area==a)
-  cpue$smooth[cpue$area==a] <- predict(fm, cpue[cpue$area==a,])
+  fm <- loess(log(obs)~time, cpue, subset=area==a, span=0.5)
+  cpue$smooth[cpue$area==a] <- exp(predict(fm, cpue[cpue$area==a,]))
 }
 
 # Calculate sigma
