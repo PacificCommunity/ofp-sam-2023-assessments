@@ -10,8 +10,8 @@ calculate.sigma.model <- function(x)
 calculate.sigma.loess <- function(x)
 {
   obs <- x$obs[!is.na(x$obs)]
-  fit <- loess(obs~time, x)$fitted  # already omits NA
-  rss <- sum((log(fit) - log(obs))^2)
+  smooth <- x$smooth[!is.na(x$obs)]
+  rss <- sum((log(smooth) - log(obs))^2)
   sigma <- rss / length(obs)
   sigma
 }
