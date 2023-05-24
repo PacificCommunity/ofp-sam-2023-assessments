@@ -4,7 +4,7 @@
 ## After:  cpue.png, sigma.csv, sigma.png (report)
 
 library(TAF)
-source("utilities.R")
+source("utilities.R")  # plot.cpue
 
 mkdir("report")
 
@@ -23,7 +23,6 @@ dev.off()
 
 # Plot sigmas
 taf.png("sigma")
-par(mfrow=c(1,1))
 barplot(sigma~area, sigma)
 abline(h=median(sigma$sigma), lty=2, lwd=2, col=2)
 dev.off()
