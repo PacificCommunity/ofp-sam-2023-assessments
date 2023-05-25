@@ -3,7 +3,7 @@ calculate.sigma.model <- function(x)
   obs <- x$obs[!is.na(x$obs)]
   fit <- x$fit[!is.na(x$obs)]
   rss <- sum((log(fit) - log(obs))^2)
-  sigma <- rss / length(obs)
+  sigma <- sqrt(rss / length(obs))
   sigma
 }
 
@@ -12,7 +12,7 @@ calculate.sigma.loess <- function(x)
   obs <- x$obs[!is.na(x$obs)]
   smooth <- x$smooth[!is.na(x$obs)]
   rss <- sum((log(smooth) - log(obs))^2)
-  sigma <- rss / length(obs)
+  sigma <- sqrt(rss / length(obs))
   sigma
 }
 
