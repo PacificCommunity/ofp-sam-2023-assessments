@@ -16,6 +16,13 @@ calculate.sigma.loess <- function(x)
   sigma
 }
 
+convert.cv <- function(sigma)
+{
+  penalty <- 1 / (2*sigma^2)
+  flag.value <- round(10 * penalty)
+  flag.value
+}
+
 plot.cpue.loess <- function(x, sigma)
 {
   plot(obs~time, data=x, ylim=lim(c(x$obs,x$smooth)), ann=FALSE, col="gray")

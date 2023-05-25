@@ -4,7 +4,7 @@
 ## After:  cpue_loess.png, cpue_model.png, sigma.png (report)
 
 library(TAF)
-source("utilities.R")  # plot.cpue
+source("utilities.R")  # convert.cv, plot.cpue
 
 mkdir("report")
 
@@ -36,3 +36,13 @@ barplot(sigma.loess, ylim=lim(c(sigma.loess, sigma.model)),
         main="sigma (loess fit)")
 abline(h=median(sigma.loess), lty=2, lwd=2, col=2)
 dev.off()
+
+# Convert to MFCL flag values
+mfcl.loess <- convert.cv(sigma.loess)
+mfcl.loess <- as.data.frame(t(mfcl.loess))
+mfcl.model <- convert.cv(sigma.model)
+mfcl.model <- as.data.frame(t(mfcl.model))
+
+# Write TAF tables
+write.taf(mfcl.loess, dir="report")
+write.taf(mfcl.model, dir="report")
