@@ -79,8 +79,21 @@ plotCL(x.yft, log=TRUE)
 
 
 # Calculate effective sample size
-estN(x.yft, "CLc")
-estN(x.yft, "CLc", init=FALSE)
+nscaled <- estN(x.yft, "CLc")
+nfree <- estN(x.yft, "CLc", init=FALSE)
 estN(x.yft2, "CLc", init=FALSE)
 mean(estN(x.yft, "CLc"))
 mean(estN(x.yft, "CLc", init=FALSE))
+
+# SS
+ss.20 <- round(with(aggregate(SS~Series+Year, x.yft$CLc, mean), tapply(SS, Series, median))/20)
+ss.20 <- setNames(as.numeric(ss.20), dimnames(ss.20)[[1]])
+ss.10 <- round(with(aggregate(SS~Series+Year, x.yft$CLc, mean), tapply(SS, Series, median))/10)
+ss.10 <- setNames(as.numeric(ss.10), dimnames(ss.10)[[1]])
+ss.scaled <- round(sapply(nscaled, median))
+ss.free <- round(sapply(nfree, median))
+
+median(ss.20)
+# median(ss.10)
+median(ss.scaled)
+median(ss.free)
