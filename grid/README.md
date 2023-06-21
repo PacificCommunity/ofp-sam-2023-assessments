@@ -30,7 +30,7 @@ Tag mixing               |      2 | 1 quarter, 2 quarters*
 Axis                     | Levels | Option
 ------------------------ | ------ | -----------------------------------------------------
 Steepness                |      3 | 0.65, 0.80, 0.95
-Growth                   |      2 | von Bertalanffy, Richards
+Growth                   |      2 | High variance, Low variance
 Natural mortality        |      4 | 2020 value, Estimated scaling, Lorenzen, Hoyle et al
 Size frequency weighting |      4 | Sample sizes divided by 20, 60, 200, 500
 Tag mixing               |      2 | 1 quarter, 2 quarters
