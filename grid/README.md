@@ -29,15 +29,13 @@ Tag mixing               |      2 | 1 quarter, 2 quarters*
 
 Axis                     | Levels | Option
 ------------------------ | ------ | -----------------------------------------------------
-Steepness                |      3 | 0.65, 0.80, 0.95
-Growth                   |      2 | High variance, Low variance
-Natural mortality        |      4 | 2020 value, Estimated scaling, Lorenzen, Hoyle et al
-Size frequency weighting |      4 | Sample sizes divided by 20, 60, 200, 500
-Tag mixing               |      2 | 1 quarter, 2 quarters
-Regions                  |      2 | 5, 9
-Movement                 |      2 | Estimated, Fixed SEAPODYM coefficients
+Steepness                |      3 | 0.65, 0.80*, 0.95
+Tag mixing               |      3 | 1, 2*, 3 quarters
+Size data weighting      |      3 | Sample sizes divided by 10, 20*, 40
+Tagging data weighting   |      3 | tau 1, 2*, 4 (-10, 0, and a value equivalent to tau 4)
+Age data weighting       |      3 | 0.5, 0.75*, 1
 
-3 * 2 * 4 * 4 * 2 * 2 * 2 = 768
+3 * 3 * 3 * 3 * 3 = 243
 
 ## Figures from 2020
 
