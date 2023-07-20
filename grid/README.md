@@ -30,12 +30,12 @@ Tag mixing               |      2 | 1 quarter, 2 quarters*
 Axis                     | Levels | Option
 ------------------------ | ------ | -----------------------------------------------------
 Steepness                |      3 | 0.65, 0.80*, 0.95
-Tag mixing               |      3 | 1, 2*, 3 quarters
+Tag mixing               |      3 | 1, 2* quarters
 Size data weighting      |      3 | Sample sizes divided by 10, 20*, 40
 Tagging data weighting   |      3 | tau 1, 2*, 4 (-10, 0, and a value equivalent to tau 4)
 Age data weighting       |      3 | 0.5, 0.75*, 1
 
-3 * 3 * 3 * 3 * 3 = 243
+3 * 2 * 3 * 3 * 3 = 162
 
 ## Figures from 2020
 
