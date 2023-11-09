@@ -5,4 +5,4 @@ Demo script and data:
 * [cpue.csv](cpue.csv)
 
 See Section 5.5.1 in the 2023 yellowfin assessment report:
-*[WCPFC-SC19-2023/SA-WP-04](https://meetings.wcpfc.int/node/19352)*
+* [WCPFC-SC19-2023/SA-WP-04](https://meetings.wcpfc.int/node/19352)
