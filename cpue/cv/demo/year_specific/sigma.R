@@ -9,8 +9,10 @@ get_sigma <- function(x)
   sigma
 }
 
-# Plot
+# Impport model results
 cpue <- read.csv("cpue.csv")
+
+# Plot
 plot(obs~year, cpue, ylim=c(0,1))
 lines(fit~year, cpue)
 
