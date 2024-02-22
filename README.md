@@ -21,10 +21,5 @@
 
 *BET*
 
-* [Offline workflow](https://github.com/PacificCommunity/ofp-sam-shinyMFCL/tree/main/examples/bet_2023_stepwise)
-* [Online instance](https://arni-magnusson.shinyapps.io/bet_2023_stepwise/)
-
-*YFT*
-
-* [Offline workflow](https://github.com/PacificCommunity/ofp-sam-shinyMFCL/tree/main/examples/bet_2023_stepwise)
-* [Online instance](https://arni-magnusson.shinyapps.io/yft_2023_stepwise/)
+* [BET](https://github.com/PacificCommunity/ofp-sam-shinyMFCL/tree/main/examples/bet_2023_stepwise)
+* [YFT](https://github.com/PacificCommunity/ofp-sam-shinyMFCL/tree/main/examples/yft_2023_stepwise)
